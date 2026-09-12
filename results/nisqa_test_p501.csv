@@ -1,0 +1,241 @@
+filepath,condition,mos,dataset,split
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00001_P501_C_english_f1_FB_48k.wav,Anchor: Fullband clean,4.6875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00001_P501_C_english_f2_FB_48k.wav,Anchor: Fullband clean,4.6153846153846105,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00001_P501_C_english_m1_FB_48k.wav,Anchor: Fullband clean,4.83333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00001_P501_C_english_m2_FB_48k.wav,Anchor: Fullband clean,4.888888888888889,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00002_P501_C_english_f1_FB_48k.wav,Anchor: P50MNRU 25dB,4.26666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00002_P501_C_english_f2_FB_48k.wav,Anchor: P50MNRU 25dB,4.07692307692308,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00002_P501_C_english_m1_FB_48k.wav,Anchor: P50MNRU 25dB,3.9166666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00002_P501_C_english_m2_FB_48k.wav,Anchor: P50MNRU 25dB,4.06666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00003_P501_C_english_f1_FB_48k.wav,Anchor: White Noise 12dB,2.0714285714285703,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00003_P501_C_english_f2_FB_48k.wav,Anchor: White Noise 12dB,1.9333333333333305,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00003_P501_C_english_m1_FB_48k.wav,Anchor: White Noise 12dB,2.3125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00003_P501_C_english_m2_FB_48k.wav,Anchor: White Noise 12dB,2.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00004_P501_C_english_f1_FB_48k.wav,Anchor: Level -20dB,3.53333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00004_P501_C_english_f2_FB_48k.wav,Anchor: Level -20dB,3.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00004_P501_C_english_m1_FB_48k.wav,Anchor: Level -20dB,3.76923076923077,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00004_P501_C_english_m2_FB_48k.wav,Anchor: Level -20dB,3.5,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00005_P501_C_english_f1_FB_48k.wav,Anchor: BP 500-2500Hz,2.78571428571429,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00005_P501_C_english_f2_FB_48k.wav,Anchor: BP 500-2500Hz,2.38461538461538,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00005_P501_C_english_m1_FB_48k.wav,Anchor: BP 500-2500Hz,2.625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00005_P501_C_english_m2_FB_48k.wav,Anchor: BP 500-2500Hz,2.6666666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00006_P501_C_english_f1_FB_48k.wav,Anchor: BP 100-5000Hz + Level -10dB,3.6875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00006_P501_C_english_f2_FB_48k.wav,Anchor: BP 100-5000Hz + Level -10dB,3.30769230769231,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00006_P501_C_english_m1_FB_48k.wav,Anchor: BP 100-5000Hz + Level -10dB,3.4,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00006_P501_C_english_m2_FB_48k.wav,Anchor: BP 100-5000Hz + Level -10dB,3.6666666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00007_P501_C_english_f1_FB_48k.wav,Anchor: Time Clipping 2%,3.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00007_P501_C_english_f2_FB_48k.wav,Anchor: Time Clipping 2%,3.82352941176471,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00007_P501_C_english_m1_FB_48k.wav,Anchor: Time Clipping 2%,3.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00007_P501_C_english_m2_FB_48k.wav,Anchor: Time Clipping 2%,3.77777777777778,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00008_P501_C_english_f1_FB_48k.wav,Anchor: Time Clipping 20%,2.0714285714285703,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00008_P501_C_english_f2_FB_48k.wav,Anchor: Time Clipping 20%,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00008_P501_C_english_m1_FB_48k.wav,Anchor: Time Clipping 20%,1.8125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00008_P501_C_english_m2_FB_48k.wav,Anchor: Time Clipping 20%,1.8666666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00009_P501_C_english_f1_FB_48k.wav,Amp clipping 0.15 x AMR-WB@6.60,2.86666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00009_P501_C_english_f2_FB_48k.wav,Amp clipping 0.15 x AMR-WB@6.60,2.625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00009_P501_C_english_m1_FB_48k.wav,Amp clipping 0.15 x AMR-WB@6.60,2.6,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00009_P501_C_english_m2_FB_48k.wav,Amp clipping 0.15 x AMR-WB@6.60,2.5625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00010_P501_C_english_f1_FB_48k.wav,Amp clipping 0.10 x Opus @ 12.0 ,2.5833333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00010_P501_C_english_f2_FB_48k.wav,Amp clipping 0.10 x Opus @ 12.0 ,2.5833333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00010_P501_C_english_m1_FB_48k.wav,Amp clipping 0.10 x Opus @ 12.0 ,2.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00010_P501_C_english_m2_FB_48k.wav,Amp clipping 0.10 x Opus @ 12.0 ,2.38461538461538,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00011_P501_C_english_f1_FB_48k.wav,Amp clipping 0.05 x EVS @ 13.2 ,2.35714285714286,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00011_P501_C_english_f2_FB_48k.wav,Amp clipping 0.05 x EVS @ 13.2 ,2.6,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00011_P501_C_english_m1_FB_48k.wav,Amp clipping 0.05 x EVS @ 13.2 ,2.46666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00011_P501_C_english_m2_FB_48k.wav,Amp clipping 0.05 x EVS @ 13.2 ,2.1875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00012_P501_C_english_f1_FB_48k.wav,EVS @ 24.4 ,4.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00012_P501_C_english_f2_FB_48k.wav,EVS @ 24.4 ,4.73333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00012_P501_C_english_m1_FB_48k.wav,EVS @ 24.4 ,4.88235294117647,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00012_P501_C_english_m2_FB_48k.wav,EVS @ 24.4 ,4.33333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00013_P501_C_english_f1_FB_48k.wav,EVS @ 24.4 PL 3%  bursty,3.875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00013_P501_C_english_f2_FB_48k.wav,EVS @ 24.4 PL 3%  bursty,3.88235294117647,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00013_P501_C_english_m1_FB_48k.wav,EVS @ 24.4 PL 3%  bursty,4.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00013_P501_C_english_m2_FB_48k.wav,EVS @ 24.4 PL 3%  bursty,4.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00014_P501_C_english_f1_FB_48k.wav,EVS @ 24.4 PL 6%  random,3.1666666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00014_P501_C_english_f2_FB_48k.wav,EVS @ 24.4 PL 6%  random,3.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00014_P501_C_english_m1_FB_48k.wav,EVS @ 24.4 PL 6%  random,4.6,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00014_P501_C_english_m2_FB_48k.wav,EVS @ 24.4 PL 6%  random,3.28571428571429,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00015_P501_C_english_f1_FB_48k.wav,EVS @ 24.4 PL 15%  bursty,2.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00015_P501_C_english_f2_FB_48k.wav,EVS @ 24.4 PL 15%  bursty,2.46666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00015_P501_C_english_m1_FB_48k.wav,EVS @ 24.4 PL 15%  bursty,2.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00015_P501_C_english_m2_FB_48k.wav,EVS @ 24.4 PL 15%  bursty,3.06666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00016_P501_C_english_f1_FB_48k.wav,EVS @ 24.4 PL 25%  random,2.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00016_P501_C_english_f2_FB_48k.wav,EVS @ 24.4 PL 25%  random,2.3125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00016_P501_C_english_m1_FB_48k.wav,EVS @ 24.4 PL 25%  random,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00016_P501_C_english_m2_FB_48k.wav,EVS @ 24.4 PL 25%  random,2.21428571428571,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00017_P501_C_english_f1_FB_48k.wav,Opus @ 25.0 ,4.42857142857143,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00017_P501_C_english_f2_FB_48k.wav,Opus @ 25.0 ,4.5,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00017_P501_C_english_m1_FB_48k.wav,Opus @ 25.0 ,4.5333333333333306,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00017_P501_C_english_m2_FB_48k.wav,Opus @ 25.0 ,4.4375,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00018_P501_C_english_f1_FB_48k.wav,Opus @ 25.0 PL 3%  bursty,3.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00018_P501_C_english_f2_FB_48k.wav,Opus @ 25.0 PL 3%  bursty,3.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00018_P501_C_english_m1_FB_48k.wav,Opus @ 25.0 PL 3%  bursty,3.55555555555556,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00018_P501_C_english_m2_FB_48k.wav,Opus @ 25.0 PL 3%  bursty,3.4285714285714306,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00019_P501_C_english_f1_FB_48k.wav,Opus @ 25.0 PL 6%  random,3.3333333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00019_P501_C_english_f2_FB_48k.wav,Opus @ 25.0 PL 6%  random,3.375,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00019_P501_C_english_m1_FB_48k.wav,Opus @ 25.0 PL 6%  random,3.15384615384615,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00019_P501_C_english_m2_FB_48k.wav,Opus @ 25.0 PL 6%  random,3.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00020_P501_C_english_f1_FB_48k.wav,Opus @ 25.0 PL 15%  bursty,2.625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00020_P501_C_english_f2_FB_48k.wav,Opus @ 25.0 PL 15%  bursty,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00020_P501_C_english_m1_FB_48k.wav,Opus @ 25.0 PL 15%  bursty,1.92307692307692,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00020_P501_C_english_m2_FB_48k.wav,Opus @ 25.0 PL 15%  bursty,2.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00021_P501_C_english_f1_FB_48k.wav,Opus @ 25.0 PL 25%  random,1.85714285714286,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00021_P501_C_english_f2_FB_48k.wav,Opus @ 25.0 PL 25%  random,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00021_P501_C_english_m1_FB_48k.wav,Opus @ 25.0 PL 25%  random,1.92307692307692,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00021_P501_C_english_m2_FB_48k.wav,Opus @ 25.0 PL 25%  random,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00022_P501_C_english_f1_FB_48k.wav,Opus @ 25.0 + Level -30dB,2.4375,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00022_P501_C_english_f2_FB_48k.wav,Opus @ 25.0 + Level -30dB,2.53333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00022_P501_C_english_m1_FB_48k.wav,Opus @ 25.0 + Level -30dB,2.64285714285714,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00022_P501_C_english_m2_FB_48k.wav,Opus @ 25.0 + Level -30dB,2.15384615384615,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00023_P501_C_english_f1_FB_48k.wav,AMR-NB@12.2 + Level -15dB,2.71428571428571,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00023_P501_C_english_f2_FB_48k.wav,AMR-NB@12.2 + Level -15dB,2.5625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00023_P501_C_english_m1_FB_48k.wav,AMR-NB@12.2 + Level -15dB,2.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00023_P501_C_english_m2_FB_48k.wav,AMR-NB@12.2 + Level -15dB,2.93333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00024_P501_C_english_f1_FB_48k.wav,AMR-WB@8.85 + Level -10dB,3.6666666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00024_P501_C_english_f2_FB_48k.wav,AMR-WB@8.85 + Level -10dB,3.4,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00024_P501_C_english_m1_FB_48k.wav,AMR-WB@8.85 + Level -10dB,3.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00024_P501_C_english_m2_FB_48k.wav,AMR-WB@8.85 + Level -10dB,3.5,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00025_P501_C_english_f1_FB_48k.wav,AMR-NB@12.2 + BGN 0dB + Level -25dB,1.14285714285714,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00025_P501_C_english_f2_FB_48k.wav,AMR-NB@12.2 + BGN 0dB + Level -25dB,1.07142857142857,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00025_P501_C_english_m1_FB_48k.wav,AMR-NB@12.2 + BGN 0dB + Level -25dB,1.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00025_P501_C_english_m2_FB_48k.wav,AMR-NB@12.2 + BGN 0dB + Level -25dB,1.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00026_P501_C_english_f1_FB_48k.wav,EVS @ 9.60  + BGN 10dB + Level -20dB,1.33333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00026_P501_C_english_f2_FB_48k.wav,EVS @ 9.60  + BGN 10dB + Level -20dB,1.15384615384615,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00026_P501_C_english_m1_FB_48k.wav,EVS @ 9.60  + BGN 10dB + Level -20dB,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00026_P501_C_english_m2_FB_48k.wav,EVS @ 9.60  + BGN 10dB + Level -20dB,1.4375,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00027_P501_C_english_f1_FB_48k.wav,AMR-WB@23.85 + BGN 20dB + Level -15dB,2.77777777777778,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00027_P501_C_english_f2_FB_48k.wav,AMR-WB@23.85 + BGN 20dB + Level -15dB,2.57142857142857,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00027_P501_C_english_m1_FB_48k.wav,AMR-WB@23.85 + BGN 20dB + Level -15dB,2.78571428571429,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00027_P501_C_english_m2_FB_48k.wav,AMR-WB@23.85 + BGN 20dB + Level -15dB,2.38461538461538,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00028_P501_C_english_f1_FB_48k.wav,Opus @ 20.0 PL 25% random + BGN 10dB + Level -10dB,1.13333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00028_P501_C_english_f2_FB_48k.wav,Opus @ 20.0 PL 25% random + BGN 10dB + Level -10dB,1.16666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00028_P501_C_english_m1_FB_48k.wav,Opus @ 20.0 PL 25% random + BGN 10dB + Level -10dB,1.26666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00028_P501_C_english_m2_FB_48k.wav,Opus @ 20.0 PL 25% random + BGN 10dB + Level -10dB,1.33333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00029_P501_C_english_f1_FB_48k.wav,EVS @ 13.2 PL 15% bursty + BGN 20dB + Level -15dB,2.5,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00029_P501_C_english_f2_FB_48k.wav,EVS @ 13.2 PL 15% bursty + BGN 20dB + Level -15dB,1.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00029_P501_C_english_m1_FB_48k.wav,EVS @ 13.2 PL 15% bursty + BGN 20dB + Level -15dB,2.0833333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00029_P501_C_english_m2_FB_48k.wav,EVS @ 13.2 PL 15% bursty + BGN 20dB + Level -15dB,1.70588235294118,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00030_P501_C_english_f1_FB_48k.wav,AMR-WB@23.85 PL 6% bursty + BGN 30dB ,2.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00030_P501_C_english_f2_FB_48k.wav,AMR-WB@23.85 PL 6% bursty + BGN 30dB ,2.3333333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00030_P501_C_english_m1_FB_48k.wav,AMR-WB@23.85 PL 6% bursty + BGN 30dB ,3.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00030_P501_C_english_m2_FB_48k.wav,AMR-WB@23.85 PL 6% bursty + BGN 30dB ,2.3333333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00031_P501_C_english_f1_FB_48k.wav,AMR-NB @ 6.70 + BGN 10dB + Level -25dB,1.33333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00031_P501_C_english_f2_FB_48k.wav,AMR-NB @ 6.70 + BGN 10dB + Level -25dB,1.13333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00031_P501_C_english_m1_FB_48k.wav,AMR-NB @ 6.70 + BGN 10dB + Level -25dB,1.41176470588235,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00031_P501_C_english_m2_FB_48k.wav,AMR-NB @ 6.70 + BGN 10dB + Level -25dB,1.3076923076923102,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00032_P501_C_english_f1_FB_48k.wav,Opus @ 10.0  + BGN 5dB + Level -25dB,1.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00032_P501_C_english_f2_FB_48k.wav,Opus @ 10.0  + BGN 5dB + Level -25dB,1.16666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00032_P501_C_english_m1_FB_48k.wav,Opus @ 10.0  + BGN 5dB + Level -25dB,1.14285714285714,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00032_P501_C_english_m2_FB_48k.wav,Opus @ 10.0  + BGN 5dB + Level -25dB,1.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00033_P501_C_english_f1_FB_48k.wav,AMR-WB @ 12.65 selftandem x3 + BGN 20dB + Level -10dB,3.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00033_P501_C_english_f2_FB_48k.wav,AMR-WB @ 12.65 selftandem x3 + BGN 20dB + Level -10dB,2.8,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00033_P501_C_english_m1_FB_48k.wav,AMR-WB @ 12.65 selftandem x3 + BGN 20dB + Level -10dB,2.86666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00033_P501_C_english_m2_FB_48k.wav,AMR-WB @ 12.65 selftandem x3 + BGN 20dB + Level -10dB,2.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00034_P501_C_english_f1_FB_48k.wav,AMR-NB@12.2 PL 3% x G.711 x AMR-NB@12.2  PL 3% ,2.52941176470588,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00034_P501_C_english_f2_FB_48k.wav,AMR-NB@12.2 PL 3% x G.711 x AMR-NB@12.2  PL 3% ,2.4166666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00034_P501_C_english_m1_FB_48k.wav,AMR-NB@12.2 PL 3% x G.711 x AMR-NB@12.2  PL 3% ,3.0833333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00034_P501_C_english_m2_FB_48k.wav,AMR-NB@12.2 PL 3% x G.711 x AMR-NB@12.2  PL 3% ,2.3333333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00035_P501_C_english_f1_FB_48k.wav,AMR-WB@12.65 PL 3% x G.722 x AMR-WB@12.65 PL 3% + BGN 15dB,1.5625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00035_P501_C_english_f2_FB_48k.wav,AMR-WB@12.65 PL 3% x G.722 x AMR-WB@12.65 PL 3% + BGN 15dB,1.875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00035_P501_C_english_m1_FB_48k.wav,AMR-WB@12.65 PL 3% x G.722 x AMR-WB@12.65 PL 3% + BGN 15dB,1.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00035_P501_C_english_m2_FB_48k.wav,AMR-WB@12.65 PL 3% x G.722 x AMR-WB@12.65 PL 3% + BGN 15dB,1.64285714285714,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00036_P501_C_english_f1_FB_48k.wav,AMR-NB@12.2 PL 15% x G.711 x AMR-NB@12.2  + BGN 10dB,1.6666666666666698,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00036_P501_C_english_f2_FB_48k.wav,AMR-NB@12.2 PL 15% x G.711 x AMR-NB@12.2  + BGN 10dB,1.53333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00036_P501_C_english_m1_FB_48k.wav,AMR-NB@12.2 PL 15% x G.711 x AMR-NB@12.2  + BGN 10dB,1.73333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00036_P501_C_english_m2_FB_48k.wav,AMR-NB@12.2 PL 15% x G.711 x AMR-NB@12.2  + BGN 10dB,1.55555555555556,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00037_P501_C_english_f1_FB_48k.wav,Skype Bad ,1.375,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00037_P501_C_english_f2_FB_48k.wav,Skype Bad ,1.08333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00037_P501_C_english_m1_FB_48k.wav,Skype Bad ,1.23076923076923,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00037_P501_C_english_m2_FB_48k.wav,Skype Bad ,1.46666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00038_P501_C_english_f1_FB_48k.wav,Skype Bad + BGN 15dB,1.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00038_P501_C_english_f2_FB_48k.wav,Skype Bad + BGN 15dB,1.13333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00038_P501_C_english_m1_FB_48k.wav,Skype Bad + BGN 15dB,1.125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00038_P501_C_english_m2_FB_48k.wav,Skype Bad + BGN 15dB,1.125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00039_P501_C_english_f1_FB_48k.wav,Skype Medium ,4.07692307692308,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00039_P501_C_english_f2_FB_48k.wav,Skype Medium ,3.2,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00039_P501_C_english_m1_FB_48k.wav,Skype Medium ,2.4375,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00039_P501_C_english_m2_FB_48k.wav,Skype Medium ,2.06666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00040_P501_C_english_f1_FB_48k.wav,Skype Medium  + BGN 25dB,1.53846153846154,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00040_P501_C_english_f2_FB_48k.wav,Skype Medium  + BGN 25dB,1.3076923076923102,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00040_P501_C_english_m1_FB_48k.wav,Skype Medium  + BGN 25dB,2.46666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00040_P501_C_english_m2_FB_48k.wav,Skype Medium  + BGN 25dB,1.53846153846154,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00041_P501_C_english_f1_FB_48k.wav,Skype Good,4.4375,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00041_P501_C_english_f2_FB_48k.wav,Skype Good,4.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00041_P501_C_english_m1_FB_48k.wav,Skype Good,4.26666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00041_P501_C_english_m2_FB_48k.wav,Skype Good,4.42857142857143,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00042_P501_C_english_f1_FB_48k.wav,Zoom Bad ,1.75,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00042_P501_C_english_f2_FB_48k.wav,Zoom Bad ,1.9333333333333305,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00042_P501_C_english_m1_FB_48k.wav,Zoom Bad ,2.7333333333333303,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00042_P501_C_english_m2_FB_48k.wav,Zoom Bad ,1.26666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00043_P501_C_english_f1_FB_48k.wav,Zoom Bad + BGN 20dB,1.42857142857143,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00043_P501_C_english_f2_FB_48k.wav,Zoom Bad + BGN 20dB,1.61538461538462,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00043_P501_C_english_m1_FB_48k.wav,Zoom Bad + BGN 20dB,1.9166666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00043_P501_C_english_m2_FB_48k.wav,Zoom Bad + BGN 20dB,2.4,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00044_P501_C_english_f1_FB_48k.wav,Zoom Medium ,3.46666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00044_P501_C_english_f2_FB_48k.wav,Zoom Medium ,2.6666666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00044_P501_C_english_m1_FB_48k.wav,Zoom Medium ,3.21428571428571,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00044_P501_C_english_m2_FB_48k.wav,Zoom Medium ,3.1875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00045_P501_C_english_f1_FB_48k.wav,Zoom Medium + BGN 30dB,2.0714285714285703,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00045_P501_C_english_f2_FB_48k.wav,Zoom Medium + BGN 30dB,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00045_P501_C_english_m1_FB_48k.wav,Zoom Medium + BGN 30dB,3.76923076923077,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00045_P501_C_english_m2_FB_48k.wav,Zoom Medium + BGN 30dB,2.6666666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00046_P501_C_english_f1_FB_48k.wav,Zoom Good to Bad (Warping),1.13333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00046_P501_C_english_f2_FB_48k.wav,Zoom Good to Bad (Warping),1.26666666666667,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00046_P501_C_english_m1_FB_48k.wav,Zoom Good to Bad (Warping),1.22222222222222,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00046_P501_C_english_m2_FB_48k.wav,Zoom Good to Bad (Warping),1.92307692307692,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00047_P501_C_english_f1_FB_48k.wav,Zoom Good  / Mobile (AMR-NB) / Bluetooth ,3.2666666666666697,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00047_P501_C_english_f2_FB_48k.wav,Zoom Good  / Mobile (AMR-NB) / Bluetooth ,3.14285714285714,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00047_P501_C_english_m1_FB_48k.wav,Zoom Good  / Mobile (AMR-NB) / Bluetooth ,3.0625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00047_P501_C_english_m2_FB_48k.wav,Zoom Good  / Mobile (AMR-NB) / Bluetooth ,2.875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00048_P501_C_english_f1_FB_48k.wav,Zoom Good  / Mobile (AMR-NB) / Bluetooth  + BGN 12dB,1.5833333333333302,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00048_P501_C_english_f2_FB_48k.wav,Zoom Good  / Mobile (AMR-NB) / Bluetooth  + BGN 12dB,1.73333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00048_P501_C_english_m1_FB_48k.wav,Zoom Good  / Mobile (AMR-NB) / Bluetooth  + BGN 12dB,1.8125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00048_P501_C_english_m2_FB_48k.wav,Zoom Good  / Mobile (AMR-NB) / Bluetooth  + BGN 12dB,1.53333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00049_P501_C_english_f1_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00049_P501_C_english_f2_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth,2.21428571428571,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00049_P501_C_english_m1_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth,1.3125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00049_P501_C_english_m2_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00050_P501_C_english_f1_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth + BGN 20dB,1.6666666666666698,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00050_P501_C_english_f2_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth + BGN 20dB,1.33333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00050_P501_C_english_m1_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth + BGN 20dB,2.4,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00050_P501_C_english_m2_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth + BGN 20dB,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00051_P501_C_english_f1_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth  + Level -20dB,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00051_P501_C_english_f2_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth  + Level -20dB,1.92857142857143,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00051_P501_C_english_m1_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth  + Level -20dB,2.15384615384615,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00051_P501_C_english_m2_FB_48k.wav,Zoom Bad  / Mobile (AMR-NB) / Bluetooth  + Level -20dB,1.7142857142857095,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00052_P501_C_english_f1_FB_48k.wav,VoLTE (EVS codec) Bad ,1.3125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00052_P501_C_english_f2_FB_48k.wav,VoLTE (EVS codec) Bad ,1.6666666666666698,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00052_P501_C_english_m1_FB_48k.wav,VoLTE (EVS codec) Bad ,3.6875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00052_P501_C_english_m2_FB_48k.wav,VoLTE (EVS codec) Bad ,1.875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00053_P501_C_english_f1_FB_48k.wav,VoLTE (EVS codec) Medium ,3.5714285714285694,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00053_P501_C_english_f2_FB_48k.wav,VoLTE (EVS codec) Medium ,3.0833333333333304,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00053_P501_C_english_m1_FB_48k.wav,VoLTE (EVS codec) Medium ,4.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00053_P501_C_english_m2_FB_48k.wav,VoLTE (EVS codec) Medium ,3.64285714285714,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00054_P501_C_english_f1_FB_48k.wav,WhatsApp Bad ,2.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00054_P501_C_english_f2_FB_48k.wav,WhatsApp Bad ,1.8125,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00054_P501_C_english_m1_FB_48k.wav,WhatsApp Bad ,2.1875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00054_P501_C_english_m2_FB_48k.wav,WhatsApp Bad ,1.73333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00055_P501_C_english_f1_FB_48k.wav,WhatsApp Medium ,4.07692307692308,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00055_P501_C_english_f2_FB_48k.wav,WhatsApp Medium ,3.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00055_P501_C_english_m1_FB_48k.wav,WhatsApp Medium ,3.25,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00055_P501_C_english_m2_FB_48k.wav,WhatsApp Medium ,3.1875,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00056_P501_C_english_f1_FB_48k.wav,WhatsApp Good ,4.6153846153846105,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00056_P501_C_english_f2_FB_48k.wav,WhatsApp Good ,4.466666666666669,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00056_P501_C_english_m1_FB_48k.wav,WhatsApp Good ,4.357142857142859,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00056_P501_C_english_m2_FB_48k.wav,WhatsApp Good ,4.625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00057_P501_C_english_f1_FB_48k.wav,AMR-WB Bad ,2.23076923076923,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00057_P501_C_english_f2_FB_48k.wav,AMR-WB Bad ,1.5833333333333302,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00057_P501_C_english_m1_FB_48k.wav,AMR-WB Bad ,1.375,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00057_P501_C_english_m2_FB_48k.wav,AMR-WB Bad ,1.5,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00058_P501_C_english_f1_FB_48k.wav,AMR-WB Medium ,3.5,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00058_P501_C_english_f2_FB_48k.wav,AMR-WB Medium ,2.77777777777778,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00058_P501_C_english_m1_FB_48k.wav,AMR-WB Medium ,3.6666666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00058_P501_C_english_m2_FB_48k.wav,AMR-WB Medium ,3.0,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00059_P501_C_english_f1_FB_48k.wav,AMR-NB Medium ,2.5625,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00059_P501_C_english_f2_FB_48k.wav,AMR-NB Medium ,2.6153846153846203,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00059_P501_C_english_m1_FB_48k.wav,AMR-NB Medium ,1.3529411764705903,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00059_P501_C_english_m2_FB_48k.wav,AMR-NB Medium ,2.93333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00060_P501_C_english_f1_FB_48k.wav,AMR-NB Good ,3.4166666666666696,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00060_P501_C_english_f2_FB_48k.wav,AMR-NB Good ,2.93333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00060_P501_C_english_m1_FB_48k.wav,AMR-NB Good ,3.13333333333333,nisqa_test_p501,test
+..\..\data\NISQA_Corpus\NISQA_TEST_P501\deg\c00060_P501_C_english_m2_FB_48k.wav,AMR-NB Good ,3.8,nisqa_test_p501,test

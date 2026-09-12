@@ -1,0 +1,16 @@
+model,dataset,score_type,auroc,n_id,n_ood
+nisqa,nisqa_val_sim,mahalanobis,0.44786549909255896,11020,2500
+nisqa,nisqa_val_sim,l2,0.47319165154264975,11020,2500
+nisqa,nisqa_val_sim,knn,0.9151756079854809,11020,2500
+nisqa,nisqa_val_live,mahalanobis,0.8137681488203268,11020,200
+nisqa,nisqa_val_live,l2,0.656507713248639,11020,200
+nisqa,nisqa_val_live,knn,0.9562513611615245,11020,200
+nisqa,nisqa_test_for,mahalanobis,0.6255013611615245,11020,240
+nisqa,nisqa_test_for,l2,0.6471107456140351,11020,240
+nisqa,nisqa_test_for,knn,0.926378932244404,11020,240
+nisqa,nisqa_test_livetalk,mahalanobis,0.7953125977845922,11020,232
+nisqa,nisqa_test_livetalk,l2,0.7184726828963014,11020,232
+nisqa,nisqa_test_livetalk,knn,0.9510908849114463,11020,232
+nisqa,nisqa_test_p501,mahalanobis,0.653421808832426,11020,240
+nisqa,nisqa_test_p501,l2,0.581498033877798,11020,240
+nisqa,nisqa_test_p501,knn,0.926167574107683,11020,240

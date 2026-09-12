@@ -1,0 +1,15 @@
+{
+  "dataset": "urgent-challenge/urgent2024_mos",
+  "config": "default",
+  "split": "test",
+  "source_total_rows": 6900,
+  "selection": "lowest SHA-256 rank of seed|clip_id within each system",
+  "seed": 20270818,
+  "n_systems": 23,
+  "n_per_system": 2,
+  "n_selected": 46,
+  "selected_ids_sha256": "6c596ce056629b679ee8f8b205b71b523923b669ef7da6a21f7ff5437dfe7b43",
+  "csv_sha256": "7178c067a944756293ef2e10091a2e6ad5cbc74e0489415932e9ffdd5b205d2d",
+  "labels_used_for_selection": false,
+  "role": "external_test_only"
+}

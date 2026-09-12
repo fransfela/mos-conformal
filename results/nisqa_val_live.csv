@@ -1,0 +1,201 @@
+filepath,condition,mos,dataset,split
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00057_chp_0006_reader_07339_47_seg_live_phone_6.wav,VoIP-landline to mobile,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00057_chp_0006_reader_07339_47_seg_live_phone_605.wav,VoIP-landline to mobile,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00057_chp_0006_reader_07339_47_seg_live_skype_6.wav,Skype,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00057_chp_0006_reader_07339_47_seg_live_skype_605.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00102_chp_0003_reader_05654_28_seg_live_phone_10.wav,VoIP-landline to mobile,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00102_chp_0003_reader_05654_28_seg_live_phone_609.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00102_chp_0003_reader_05654_28_seg_live_skype_10.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00102_chp_0003_reader_05654_28_seg_live_skype_609.wav,Skype,2.71428571428571,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00394_chp_0013_reader_05142_21_seg_live_phone_28.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00394_chp_0013_reader_05142_21_seg_live_skype_28.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00394_chp_0013_reader_05142_21_seg_live_skype_627.wav,Skype,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00488_chp_0002_reader_01577_48_seg_live_phone_35.wav,VoIP-landline to mobile,3.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00488_chp_0002_reader_01577_48_seg_live_skype_35.wav,Skype,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00488_chp_0002_reader_01577_48_seg_live_skype_634.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00578_chp_0039_reader_09021_2_seg_live_phone_40.wav,VoIP-landline to mobile,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00578_chp_0039_reader_09021_2_seg_live_skype_40.wav,Skype,2.5,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00625_chp_0018_reader_07723_17_seg_live_phone_46.wav,VoIP-landline to mobile,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00625_chp_0018_reader_07723_17_seg_live_skype_46.wav,Skype,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00693_chp_0015_reader_09533_52_seg_live_phone_49.wav,VoIP-landline to mobile,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_00693_chp_0015_reader_09533_52_seg_live_skype_49.wav,Skype,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_01230_chp_0016_reader_09245_26_seg_live_phone_73.wav,VoIP-landline to mobile,1.6666666666666698,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_01230_chp_0016_reader_09245_26_seg_live_skype_73.wav,Skype,1.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_01239_chp_0008_reader_10191_3_seg_live_phone_74.wav,VoIP-landline to mobile,3.4285714285714306,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_01239_chp_0008_reader_10191_3_seg_live_skype_74.wav,Skype,3.25,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_01759_chp_0038_reader_07365_1_seg_live_phone_92.wav,VoIP-landline to mobile,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_01759_chp_0038_reader_07365_1_seg_live_skype_92.wav,Skype,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_01779_chp_0037_reader_02322_4_seg_live_phone_94.wav,VoIP-landline to mobile,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_01779_chp_0037_reader_02322_4_seg_live_skype_94.wav,Skype,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02044_chp_0000_reader_04921_5_seg_live_phone_106.wav,VoIP-landline to mobile,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02044_chp_0000_reader_04921_5_seg_live_skype_106.wav,Skype,2.25,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02113_chp_0007_reader_01566_4_seg_live_phone_107.wav,VoIP-landline to mobile,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02113_chp_0007_reader_01566_4_seg_live_skype_107.wav,Skype,1.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02124_chp_0064_reader_02632_19_seg_live_phone_108.wav,VoIP-landline to mobile,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02124_chp_0064_reader_02632_19_seg_live_skype_108.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02131_chp_0074_reader_02552_12_seg_live_phone_109.wav,VoIP-landline to mobile,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02131_chp_0074_reader_02552_12_seg_live_skype_109.wav,Skype,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02226_chp_0004_reader_04372_25_seg_live_phone_114.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02226_chp_0004_reader_04372_25_seg_live_skype_114.wav,Skype,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02252_chp_0007_reader_09010_12_seg_live_phone_117.wav,VoIP-landline to mobile,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02252_chp_0007_reader_09010_12_seg_live_skype_117.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02397_chp_0011_reader_08260_16_seg_live_phone_125.wav,VoIP-landline to mobile,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02397_chp_0011_reader_08260_16_seg_live_skype_125.wav,Skype,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02442_chp_0005_reader_01031_5_seg_live_phone_128.wav,VoIP-landline to mobile,2.25,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02442_chp_0005_reader_01031_5_seg_live_skype_128.wav,Skype,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02477_chp_0003_reader_10633_36_seg_live_phone_130.wav,VoIP-landline to mobile,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02477_chp_0003_reader_10633_36_seg_live_skype_130.wav,Skype,2.42857142857143,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02485_chp_0021_reader_02882_4_seg_live_phone_131.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02485_chp_0021_reader_02882_4_seg_live_skype_131.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02609_chp_0012_reader_07138_7_seg_live_phone_143.wav,VoIP-landline to mobile,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02609_chp_0012_reader_07138_7_seg_live_skype_143.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02764_chp_0011_reader_02612_26_seg_live_phone_151.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02764_chp_0011_reader_02612_26_seg_live_skype_151.wav,Skype,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02844_chp_0032_reader_08819_39_seg_live_phone_153.wav,VoIP-landline to mobile,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02844_chp_0032_reader_08819_39_seg_live_skype_153.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02857_chp_0013_reader_08034_7_seg_live_phone_155.wav,VoIP-landline to mobile,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02857_chp_0013_reader_08034_7_seg_live_skype_155.wav,Skype,2.625,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02876_chp_0001_reader_01444_3_seg_live_phone_156.wav,VoIP-landline to mobile,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02876_chp_0001_reader_01444_3_seg_live_skype_156.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02908_chp_0019_reader_07242_19_seg_live_phone_159.wav,VoIP-landline to mobile,2.42857142857143,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_02908_chp_0019_reader_07242_19_seg_live_skype_159.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03028_chp_0038_reader_09352_4_seg_live_phone_167.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03028_chp_0038_reader_09352_4_seg_live_skype_167.wav,Skype,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03245_chp_0008_reader_05578_2_seg_live_phone_187.wav,VoIP-landline to mobile,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03245_chp_0008_reader_05578_2_seg_live_skype_187.wav,Skype,3.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03293_chp_0002_reader_11118_9_seg_live_phone_191.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03293_chp_0002_reader_11118_9_seg_live_skype_191.wav,Skype,3.25,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03324_chp_0017_reader_05437_8_seg_live_phone_192.wav,VoIP-landline to mobile,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03324_chp_0017_reader_05437_8_seg_live_skype_192.wav,Skype,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03558_chp_0002_reader_00480_34_seg_live_phone_204.wav,VoIP-landline to mobile,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03558_chp_0002_reader_00480_34_seg_live_skype_204.wav,Skype,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03571_chp_0009_reader_02596_8_seg_live_phone_205.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03571_chp_0009_reader_02596_8_seg_live_skype_205.wav,Skype,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03893_chp_0004_reader_06273_20_seg_live_phone_222.wav,VoIP-landline to mobile,1.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03893_chp_0004_reader_06273_20_seg_live_skype_222.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03968_chp_0007_reader_10257_9_seg_live_phone_228.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_03968_chp_0007_reader_10257_9_seg_live_skype_228.wav,Skype,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04245_chp_0028_reader_05868_34_seg_live_phone_243.wav,VoIP-landline to mobile,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04245_chp_0028_reader_05868_34_seg_live_skype_243.wav,Skype,2.5,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04288_chp_0092_reader_11224_0_seg_live_skype_249.wav,Skype,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04329_chp_0002_reader_07963_0_seg_live_skype_252.wav,Skype,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04366_chp_0011_reader_05727_123_seg_live_skype_254.wav,Skype,3.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04471_chp_0004_reader_08310_45_seg_live_phone_261.wav,VoIP-landline to mobile,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04471_chp_0004_reader_08310_45_seg_live_skype_261.wav,Skype,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04471_chp_0006_reader_08006_13_seg_live_phone_262.wav,VoIP-landline to mobile,3.5,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04471_chp_0006_reader_08006_13_seg_live_skype_262.wav,Skype,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04475_chp_0006_reader_11006_13_seg_live_phone_264.wav,VoIP-landline to mobile,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04475_chp_0006_reader_11006_13_seg_live_skype_264.wav,Skype,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04633_chp_0003_reader_07326_34_seg_live_phone_267.wav,VoIP-landline to mobile,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04633_chp_0003_reader_07326_34_seg_live_skype_267.wav,Skype,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04756_chp_0030_reader_07309_27_seg_live_phone_273.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04756_chp_0030_reader_07309_27_seg_live_skype_273.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04849_chp_0028_reader_02852_44_seg_live_phone_277.wav,VoIP-landline to mobile,1.22222222222222,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_04849_chp_0028_reader_02852_44_seg_live_skype_277.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05149_chp_0018_reader_04006_16_seg_live_phone_298.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05149_chp_0018_reader_04006_16_seg_live_skype_298.wav,Skype,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05236_chp_0029_reader_03534_10_seg_live_phone_301.wav,VoIP-landline to mobile,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05236_chp_0029_reader_03534_10_seg_live_skype_301.wav,Skype,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05399_chp_0024_reader_00405_37_seg_live_phone_308.wav,VoIP-landline to mobile,1.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05399_chp_0024_reader_00405_37_seg_live_skype_308.wav,Skype,2.57142857142857,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05610_chp_0011_reader_10418_27_seg_live_phone_317.wav,VoIP-landline to mobile,1.375,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05610_chp_0011_reader_10418_27_seg_live_skype_317.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05632_chp_0003_reader_10435_6_seg_live_phone_318.wav,VoIP-landline to mobile,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05632_chp_0003_reader_10435_6_seg_live_skype_318.wav,Skype,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05872_chp_0020_reader_03783_7_seg_live_phone_329.wav,VoIP-landline to mobile,1.5,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_05872_chp_0020_reader_03783_7_seg_live_skype_329.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06046_chp_0031_reader_00242_4_seg_live_phone_337.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06046_chp_0031_reader_00242_4_seg_live_skype_337.wav,Skype,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06071_chp_0024_reader_09091_4_seg_live_phone_340.wav,VoIP-landline to mobile,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06071_chp_0024_reader_09091_4_seg_live_skype_340.wav,Skype,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06173_chp_0059_reader_02516_27_seg_live_phone_347.wav,VoIP-landline to mobile,1.5,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06173_chp_0059_reader_02516_27_seg_live_skype_347.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06289_chp_0001_reader_02455_22_seg_live_phone_352.wav,VoIP-landline to mobile,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06289_chp_0001_reader_02455_22_seg_live_skype_352.wav,Skype,1.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06294_chp_0001_reader_09211_2_seg_live_phone_353.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06294_chp_0001_reader_09211_2_seg_live_skype_353.wav,Skype,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06527_chp_0007_reader_00051_12_seg_live_phone_362.wav,VoIP-landline to mobile,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06527_chp_0007_reader_00051_12_seg_live_skype_362.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06649_chp_0019_reader_11238_4_seg_live_phone_366.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06649_chp_0019_reader_11238_4_seg_live_skype_366.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06880_chp_0013_reader_05755_23_seg_live_phone_382.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06880_chp_0013_reader_05755_23_seg_live_skype_382.wav,Skype,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06891_chp_0006_reader_10584_5_seg_live_phone_384.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06891_chp_0006_reader_10584_5_seg_live_skype_384.wav,Skype,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06939_chp_0043_reader_09896_9_seg_live_phone_386.wav,VoIP-landline to mobile,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06939_chp_0043_reader_09896_9_seg_live_skype_386.wav,Skype,1.5,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06945_chp_0008_reader_03510_17_seg_live_phone_387.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06945_chp_0008_reader_03510_17_seg_live_skype_387.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06958_chp_0019_reader_10162_4_seg_live_phone_388.wav,VoIP-landline to mobile,1.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_06958_chp_0019_reader_10162_4_seg_live_skype_388.wav,Skype,1.11111111111111,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07127_chp_0002_reader_08445_57_seg_live_phone_391.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07127_chp_0002_reader_08445_57_seg_live_skype_391.wav,Skype,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07661_chp_0002_reader_02679_1_seg_live_phone_411.wav,VoIP-landline to mobile,2.25,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07661_chp_0002_reader_02679_1_seg_live_skype_411.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07772_chp_0023_reader_06587_15_seg_live_phone_416.wav,VoIP-landline to mobile,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07772_chp_0023_reader_06587_15_seg_live_skype_416.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07884_chp_0010_reader_01419_32_seg_live_phone_425.wav,VoIP-landline to mobile,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07884_chp_0010_reader_01419_32_seg_live_skype_425.wav,Skype,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07907_chp_0011_reader_07487_28_seg_live_phone_428.wav,VoIP-landline to mobile,1.57142857142857,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_07907_chp_0011_reader_07487_28_seg_live_skype_428.wav,Skype,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08046_chp_0006_reader_06863_25_seg_live_skype_437.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08058_chp_0007_reader_06485_2_seg_live_skype_438.wav,Skype,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08134_chp_0013_reader_08131_51_seg_live_skype_443.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08134_chp_0017_reader_11094_3_seg_live_skype_444.wav,Skype,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08190_chp_0007_reader_08165_2_seg_live_skype_449.wav,Skype,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08240_chp_0008_reader_06319_13_seg_live_skype_451.wav,Skype,3.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08240_chp_0018_reader_05749_8_seg_live_skype_452.wav,Skype,2.7,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08293_chp_0005_reader_00874_16_seg_live_phone_460.wav,VoIP-landline to mobile,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08293_chp_0005_reader_00874_16_seg_live_skype_460.wav,Skype,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08747_chp_0028_reader_02720_27_seg_live_phone_481.wav,VoIP-landline to mobile,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08747_chp_0028_reader_02720_27_seg_live_skype_481.wav,Skype,1.7142857142857095,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08875_chp_0007_reader_10279_11_seg_live_phone_485.wav,VoIP-landline to mobile,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08875_chp_0007_reader_10279_11_seg_live_skype_485.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08889_chp_0018_reader_07722_2_seg_live_phone_486.wav,VoIP-landline to mobile,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_08889_chp_0018_reader_07722_2_seg_live_skype_486.wav,Skype,2.42857142857143,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09027_chp_0001_reader_07466_28_seg_live_phone_491.wav,VoIP-landline to mobile,2.22222222222222,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09027_chp_0001_reader_07466_28_seg_live_skype_491.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09049_chp_0014_reader_05415_16_seg_live_phone_492.wav,VoIP-landline to mobile,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09049_chp_0014_reader_05415_16_seg_live_skype_492.wav,Skype,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09071_chp_0012_reader_06621_11_seg_live_phone_494.wav,VoIP-landline to mobile,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09071_chp_0012_reader_06621_11_seg_live_skype_494.wav,Skype,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09145_chp_0010_reader_06754_2_seg_live_phone_500.wav,VoIP-landline to mobile,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09145_chp_0010_reader_06754_2_seg_live_skype_500.wav,Skype,2.75,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09185_chp_0031_reader_06803_2_seg_live_phone_505.wav,VoIP-landline to mobile,3.25,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09185_chp_0031_reader_06803_2_seg_live_skype_505.wav,Skype,3.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09314_chp_0017_reader_03532_33_seg_live_phone_512.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09314_chp_0017_reader_03532_33_seg_live_skype_512.wav,Skype,2.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09331_chp_0019_reader_11192_31_seg_live_phone_514.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09331_chp_0019_reader_11192_31_seg_live_skype_514.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09391_chp_0002_reader_09728_45_seg_live_phone_515.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09391_chp_0002_reader_09728_45_seg_live_skype_515.wav,Skype,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09495_chp_0026_reader_02223_54_seg_live_phone_523.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09495_chp_0026_reader_02223_54_seg_live_skype_523.wav,Skype,1.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09501_chp_0011_reader_10098_40_seg_live_phone_524.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09501_chp_0011_reader_10098_40_seg_live_skype_524.wav,Skype,1.6666666666666698,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09587_chp_0003_reader_00683_40_seg_live_phone_527.wav,VoIP-landline to mobile,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09587_chp_0003_reader_00683_40_seg_live_skype_527.wav,Skype,3.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09628_chp_0013_reader_05511_4_seg_live_phone_529.wav,VoIP-landline to mobile,3.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09628_chp_0013_reader_05511_4_seg_live_skype_529.wav,Skype,3.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09715_chp_0017_reader_05330_4_seg_live_phone_534.wav,VoIP-landline to mobile,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09715_chp_0017_reader_05330_4_seg_live_skype_534.wav,Skype,3.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09918_chp_0015_reader_06052_90_seg_live_phone_541.wav,VoIP-landline to mobile,3.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09918_chp_0015_reader_06052_90_seg_live_skype_541.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09952_chp_0001_reader_00450_3_seg_live_phone_543.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_09952_chp_0001_reader_00450_3_seg_live_skype_543.wav,Skype,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_10097_chp_0003_reader_00178_7_seg_live_phone_549.wav,VoIP-landline to mobile,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_10097_chp_0003_reader_00178_7_seg_live_skype_549.wav,Skype,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_10274_chp_0002_reader_02718_19_seg_live_phone_555.wav,VoIP-landline to mobile,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_10274_chp_0002_reader_02718_19_seg_live_skype_555.wav,Skype,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_10795_chp_0003_reader_02697_35_seg_live_phone_571.wav,VoIP-landline to mobile,3.4,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_10795_chp_0003_reader_02697_35_seg_live_skype_571.wav,Skype,3.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_10995_chp_0004_reader_01615_15_seg_live_phone_580.wav,VoIP-landline to mobile,2.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_10995_chp_0004_reader_01615_15_seg_live_skype_580.wav,Skype,1.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_11020_chp_0008_reader_06271_17_seg_live_phone_581.wav,VoIP-landline to mobile,2.8,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_11020_chp_0008_reader_06271_17_seg_live_skype_581.wav,Skype,2.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_11110_chp_0045_reader_09003_11_seg_live_phone_585.wav,VoIP-landline to mobile,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_11110_chp_0045_reader_09003_11_seg_live_skype_585.wav,Skype,2.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_11203_chp_0029_reader_04927_20_seg_live_phone_590.wav,VoIP-landline to mobile,1.0,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_11203_chp_0029_reader_04927_20_seg_live_skype_590.wav,Skype,1.2,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_11240_chp_0015_reader_01390_9_seg_live_phone_594.wav,VoIP-landline to mobile,1.6,nisqa_val_live,test
+..\..\data\NISQA_Corpus\NISQA_VAL_LIVE\deg\book_11240_chp_0015_reader_01390_9_seg_live_skype_594.wav,Skype,2.0,nisqa_val_live,test

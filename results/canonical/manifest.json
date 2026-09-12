@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "seed": 20270817,
+  "alpha": 0.1,
+  "calibration_fraction": 0.5,
+  "reference_dataset": "nisqa_train_sim",
+  "calibration_dataset": "nisqa_val_sim:deterministic_group_half",
+  "id_evaluation_dataset": "nisqa_val_sim:complementary_group_half",
+  "shifted_datasets": [
+    "nisqa_train_live",
+    "nisqa_val_live",
+    "nisqa_test_for",
+    "nisqa_test_livetalk",
+    "nisqa_test_p501"
+  ],
+  "models": [
+    "dnsmos",
+    "nisqa",
+    "utmos"
+  ],
+  "k_values": [
+    2,
+    3,
+    5,
+    10
+  ],
+  "error_thresholds": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "calibration_n": 1250,
+  "id_evaluation_n": 1250,
+  "git_commit": "c1ad288d34b27c495a30d35110716bda11401867",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.16.2",
+    "sklearn": "1.7.2"
+  },
+  "input_sha256": {
+    "results\\features\\features_dnsmos_nisqa_train_sim.npz": "29d1bea73ff65ff7c9586a6030a877d3b392916ea0bb21392f911871ab6bf792",
+    "results\\features\\features_dnsmos_nisqa_val_sim.npz": "6bed99d6087dd556752372f95387c2cc6a4f59e99dc115425ec7dad9649c381c",
+    "results\\features\\features_dnsmos_nisqa_train_live.npz": "77143e7665408934ca8b508ef08d0d33ac25005f6af384a1f5df29ff04fc710d",
+    "results\\features\\features_dnsmos_nisqa_val_live.npz": "84a5c6f578c82b5697d229f4a49054c475ec4cab4fec41e0d72aafd282c82879",
+    "results\\features\\features_dnsmos_nisqa_test_for.npz": "09b8353be0b06a3b811a6f7ec9338160c5815b66634b716c8f5ae321222615e3",
+    "results\\features\\features_dnsmos_nisqa_test_livetalk.npz": "0d937ae4c48c6f22df820195b36aa2556b40e99dc74b864b54e18cee7b383b05",
+    "results\\features\\features_dnsmos_nisqa_test_p501.npz": "d3b40153d717a4691e40dddb3cd7d3e7b4a3a9e4d658734d2ec075252aef3b9e",
+    "results\\mahal\\mahal_dnsmos.npz": "481ac50af40f7b0d27ece6638c0cae037567313248346b1b106a03b950dad2a6",
+    "results\\features\\features_nisqa_nisqa_train_sim.npz": "5150ffc8063ceb047c18389d060419ae54c654a7a70e80026df8a2f02a4836ce",
+    "results\\features\\features_nisqa_nisqa_val_sim.npz": "5caee91901078a8d4ce55fc68dec2a3101ffc35e8bce7f1e50694062f7cc9dac",
+    "results\\features\\features_nisqa_nisqa_train_live.npz": "f7b5539110cbe788fd479f870b32f4ee448155ddde04afcdcbfce4420dd7e6de",
+    "results\\features\\features_nisqa_nisqa_val_live.npz": "d3b01f06e45a96f619e850be7a4bff0c36b0304500e850b1af09c1c9f1c05afb",
+    "results\\features\\features_nisqa_nisqa_test_for.npz": "187136a4368386131c1d4e64463f5f01313b9417aa73781d8fc472ad3d44769b",
+    "results\\features\\features_nisqa_nisqa_test_livetalk.npz": "6b3361cfe95095fe2729f127d517c793dfc766867538ec5fabec6f913b899a16",
+    "results\\features\\features_nisqa_nisqa_test_p501.npz": "00875229c952020e437e4f1000c5b2b4ee8644a3128e501e725bbfb9bccf2e96",
+    "results\\mahal\\mahal_nisqa.npz": "6bcbaf322090d048de570a8551061d24f78abc05602c6941b684305f28bf86bd",
+    "results\\features\\features_utmos_nisqa_train_sim.npz": "0bcfbff010c02f27fbe556683dc147920cfe0f188dd7b113e950e5c2ba0696b2",
+    "results\\features\\features_utmos_nisqa_val_sim.npz": "181ffcecc6a33b7e9d43c98965cea2914c9336763b2588894b0e621855d7017b",
+    "results\\features\\features_utmos_nisqa_train_live.npz": "1db5a46700915a616d04981b856fc80d5a3761d6ef640966c5e6c8d5ad295fb2",
+    "results\\features\\features_utmos_nisqa_val_live.npz": "9be21e1a5f6c2625d76e31d6400efabb82cfa0b5c7008b009d17ada6ab44f513",
+    "results\\features\\features_utmos_nisqa_test_for.npz": "56bc5c86860107b28ad7a9560bcf6b3aae7db7e16ebad90cf020702c5f9c694e",
+    "results\\features\\features_utmos_nisqa_test_livetalk.npz": "3a2a198739d4907fc0755397042b61e0fb6d4731ba333e30dec14656245487ed",
+    "results\\features\\features_utmos_nisqa_test_p501.npz": "2bb75f2bcb1cacb50e06e03843e27ce3b47ffaeebd79a30b03605f17dbac0820",
+    "results\\mahal\\mahal_utmos.npz": "6285ef430f6f7176795d2a1e95c5d1f9fe9a3593de2685a1c2143df4dfedef65",
+    "data\\NISQA_Corpus\\NISQA_corpus_file.csv": "01341878d66d3a877e1d52fbf4d3fce6fad381b36fc9afb4351ac9cac8fada26"
+  },
+  "model_sha256": {
+    "dnsmos": "269fbebdb513aa23cddfbb593542ecc540284a91849ac50516870e1ac78f6edd",
+    "nisqa": "7ec4cf937514dd3f8860b21e66fabd8ca87a168572675ef8d979c4c4ad2e805c",
+    "utmos": "44c57e3e4135a243b43d2c82b6a693fcd56f15f9ad0e1eb2a8b31fdecd3a49b8"
+  },
+  "dnsmos_prediction_mapping": {
+    "method": "official polynomial applied to stored clip-mean raw output",
+    "limitation": "Exact for single-segment clips. For multi-segment clips, the official implementation maps each segment before averaging.",
+    "21_clip_crosscheck_mean_absolute_difference_mos": 0.0037805069,
+    "21_clip_crosscheck_95th_percentile_absolute_difference_mos": 0.0168044894
+  },
+  "code_sha256": {
+    "extract_features.py": "bff80834a9f26b32672c1bfa81932ecefeca16b8a6e8075318c6ec04d0b0fc66",
+    "canonical_analysis.py": "d84b8f2a282ec0e95be42d24dbfee090bf41127f27129fbf3f409bc65cb76c86"
+  },
+  "outputs": [
+    "val_sim_split.csv",
+    "interval_sensitivity.csv",
+    "error_detection.csv",
+    "risk_coverage.csv",
+    "domain_detection.csv"
+  ],
+  "output_sha256": {
+    "val_sim_split.csv": "94806e04942bfdf6b246fb94033f1c610a63c422a89865fada752698489d5264",
+    "interval_sensitivity.csv": "8810cad30b769f83d7889c2a8bbeb7943603819ab9fecb7c094805830f2fff8c",
+    "error_detection.csv": "f41dce3ebb84c34309d75517f7023f40bf1b5bbaa5e05e4ee2decfa5c8c9c35a",
+    "risk_coverage.csv": "def0bea757069ecfd3dd260651e78d23e1445c21963c2979add0051037232dcd",
+    "domain_detection.csv": "36fb532cf3d5a3c0151a9f119abf23cbc1b09187c31264197f0323a96ebd56cd"
+  }
+}

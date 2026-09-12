@@ -1,0 +1,35 @@
+% tables/tab2_pcc_srcc.tex — Table 2: SRCC + RMSE across shift sequence
+% PAPER: Table 2
+% NOTE: SRCC higher is better (max 1.0); RMSE lower is better (in MOS units)
+% Columns: SIM (in-dist) | T.LIV | V.LIV | FOR | LIVE | P.5 (shifted)
+% Values from the canonical score cache. V-SIM uses the held-out 1,250-clip half.
+\begin{table}[t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{3.2pt}
+  \renewcommand{\arraystretch}{0.92}
+  \caption{Point-prediction performance. Higher SRCC and lower RMSE are better. Within each dataset and metric, \best{bold} and \second{underlined} entries are best and second best according to unrounded values. $^\dagger$Entries that round to the same displayed value are ranked by an unrounded difference below 0.001.}
+  \vspace{2pt}
+  \label{tab:pcc-srcc}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{@{}llcccccc@{}}
+    \toprule
+    & & \multicolumn{1}{c}{Held-out ID} &
+    \multicolumn{5}{c}{Shifted evaluation} \\
+    \cmidrule(lr){3-3}
+    \cmidrule(lr){4-8}
+    Model & Metric & V-SIM & T-LIV & V-LIV & T-FOR & T-TLK & T-P501 \\
+    \midrule
+    \multirow{2}{*}{DNSMOS}
+        & SRCC & 0.703 & \second{0.674} & \second{0.674} & 0.541 & 0.593 & 0.695 \\
+        & RMSE & \second{0.854} & \second{0.549} & \best{0.525}$^\dagger$ & 0.845 & \second{0.765} & 0.913 \\[2pt]
+    \multirow{2}{*}{NISQA}
+        & SRCC & \second{0.805} & 0.649 & 0.638 & \second{0.725} & \second{0.706} & \second{0.831} \\
+        & RMSE & 0.860 & \best{0.528} & \second{0.525}$^\dagger$ & \second{0.734} & \best{0.747} & \second{0.653} \\[2pt]
+    \multirow{2}{*}{UTMOS}
+        & SRCC & \best{0.830} & \best{0.702} & \best{0.749} & \best{0.769} & \best{0.773} & \best{0.880} \\
+        & RMSE & \best{0.662} & 0.829 & 0.852 & \best{0.604} & 1.022 & \best{0.636} \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table}

@@ -1,0 +1,100 @@
+% main.tex — ICASSP 2027 submission
+% Paper:    Conformal Uncertainty for No-Reference MOS Prediction under Distribution Shift:
+%           A Leakage-Controlled Study
+% Venue:    ICASSP 2027, Toronto, Canada
+% Deadline: September 16, 2026 (HARD)
+%
+% Compile:  pdflatex main  →  bibtex main  →  pdflatex main  →  pdflatex main
+% Style:    spconf.sty (ICASSP/ICIP), IEEEbib.bst (IEEE bibliography)
+% -------------------------------------------------------------------------
+
+% Template: ICASSP 2026 (spconf.sty + IEEEbib.bst) — do not change class or style
+\pdfminorversion=7
+\documentclass{article}
+\usepackage{spconf,amsmath,amssymb,graphicx,hyperref,booktabs,microtype,multirow}
+\usepackage{balance}
+
+% ---- macros ---------------------------------------------------------------
+\newcommand{\qhat}{\hat{q}}
+\newcommand{\qtrue}{q^{*}}
+\newcommand{\Dtrain}{\mathcal{D}_{\mathrm{train}}}
+\newcommand{\Dtest}{\mathcal{D}_{\mathrm{test}}}
+\newcommand{\dMx}{d_{M}(\mathbf{x})}
+\newcommand{\Calpha}{C_{\alpha}}
+\newcommand{\zvec}{\mathbf{z}}
+\newcommand{\muvec}{\boldsymbol{\mu}}
+\newcommand{\Sigmat}{\boldsymbol{\Sigma}}
+\newcommand{\best}[1]{\textbf{#1}}
+\newcommand{\second}[1]{\underline{#1}}
+
+% Allow extra inter-word stretch on tight lines (resolves reflow overfull in two-column IEEE layout)
+\setlength{\emergencystretch}{1em}
+
+% ---- compact spacing (IEEE two-column) ------------------------------------
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{6pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\dblfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{2pt}
+\setlength{\belowcaptionskip}{0pt}
+\setlength{\abovedisplayskip}{6pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 2pt}
+
+% Keep bibliography entries at the template's 9-point minimum.
+% spconf.sty's \thebibliography prints "\section{References}" then "\list{...}"
+% in one call, so \footnotesize must be inserted between them, not before,
+% or it also shrinks the section heading (unlike sections 1-5).
+\renewcommand{\thebibliography}[1]{%
+  \section{References}%
+  \small
+  \list
+    {[\arabic{enumi}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
+     \advance\leftmargin\labelsep
+     \usecounter{enumi}}%
+  \def\newblock{\hskip .11em plus .33em minus .07em}%
+  \sloppy\clubpenalty4000\widowpenalty4000
+  \sfcode`\.=1000\relax
+  \setlength{\itemsep}{0pt}%
+  \setlength{\parskip}{0pt}%
+}
+
+% ---- title — ALL CAPS per ICASSP style ----------------------------------
+\title{CONFORMAL UNCERTAINTY FOR NO-REFERENCE MOS PREDICTION UNDER DISTRIBUTION SHIFT: A LEAKAGE-CONTROLLED STUDY}
+
+% ---- author block ---------------------------------------------------------
+% Anonymized for double-blind review
+\name{Randy Frans Fela \qquad Pejman Mowlaee}
+
+%\address{GN Group, Lautrupbjerg 7, 2750 Ballerup Denmark} 
+
+%\name{Randy Frans Fela, Pejman Mowlaee}
+\address{GN Group -- Lautrupbjerg 7, 2750 Ballerup, Denmark\\
+
+% ========================================================================
+\begin{document}
+%\ninept  % uncomment if 9pt required by final venue guidelines
+
+\maketitle
+
+% --- Abstract (sections/abstract.tex) -----------------------------------
+\input{sections/abstract}
+
+\begin{keywords}
+mean opinion score, conformal prediction, out-of-distribution detection,
+speech quality assessment, distribution shift, uncertainty quantification
+\end{keywords}
+
+% --- Body sections -------------------------------------------------------
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_method}
+\input{sections/04_experiments}
+\input{sections/05_conclusion}
+
+% --- References ----------------------------------------------------------
+\balance
+\bibliographystyle{IEEEbib}
+\bibliography{strings,refs}
+
+\end{document}

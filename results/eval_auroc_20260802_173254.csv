@@ -1,0 +1,6 @@
+model,dataset,auroc,n_id,n_ood
+dnsmos,nisqa_val_sim,0.45389350272232304,11020,2500
+dnsmos,nisqa_val_live,0.6816270417422867,11020,200
+dnsmos,nisqa_test_for,0.5789496370235935,11020,240
+dnsmos,nisqa_test_livetalk,0.6820780399274047,11020,232
+dnsmos,nisqa_test_p501,0.45190940713853595,11020,240

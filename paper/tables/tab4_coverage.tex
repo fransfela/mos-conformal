@@ -1,0 +1,55 @@
+% Canonical Mahalanobis K=5 intervals calibrated on one V-SIM half.
+% PAPER: Table 4
+\begin{table}[t]
+  \centering
+  %\small
+  \footnotesize
+  \setlength{\tabcolsep}{0.8pt}
+  \renewcommand{\arraystretch}{0.94}
+  \caption{Coverage (Cov., \%) and mean width (W) at 90\% nominal coverage. Fixed (F) and five-bin Mahalanobis-adaptive (A) intervals use the same V-SIM calibration split. Interpret coverage and width jointly. %Neither alone determines the better interval.
+  }
+  \vspace{2pt}
+  \label{tab:coverage}
+  \begin{tabular}{@{}l*{6}{cc}@{}}
+    \toprule
+    & \multicolumn{4}{c}{DNSMOS} & \multicolumn{4}{c}{NISQA} &
+    \multicolumn{4}{c}{UTMOS} \\
+    \cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}
+    Dataset
+    & \multicolumn{2}{c}{F} & \multicolumn{2}{c}{A}
+    & \multicolumn{2}{c}{F} & \multicolumn{2}{c}{A}
+    & \multicolumn{2}{c}{F} & \multicolumn{2}{c}{A} \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+    \cmidrule(lr){6-7}\cmidrule(lr){8-9}
+    \cmidrule(lr){10-11}\cmidrule(lr){12-13}
+    & Cov. & W & Cov. & W
+    & Cov. & W & Cov. & W
+    & Cov. & W & Cov. & W \\
+    \midrule
+    V-SIM
+      & 90.2 & 2.74 & 90.1 & 2.73
+      & 90.1 & 2.91 & 89.4 & 2.83
+      & 91.8 & 2.26 & 92.1 & 2.28 \\
+    T-LIV
+      & 99.0 & 2.74 & 98.6 & 2.63
+      & 99.3 & 2.91 & 94.3 & 2.16
+      & 81.3 & 2.26 & 82.1 & 2.31 \\
+    V-LIV
+      & 100.0 & 2.74 & 99.5 & 2.63
+      & 99.5 & 2.91 & 98.0 & 2.14
+      & 78.0 & 2.26 & 79.0 & 2.31 \\
+    T-FOR
+      & 90.0 & 2.74 & 87.9 & 2.67
+      & 92.9 & 2.91 & 90.8 & 2.54
+      & 92.1 & 2.26 & 93.3 & 2.32 \\
+    T-TLK
+      & 94.4 & 2.74 & 93.5 & 2.63
+      & 93.5 & 2.91 & 84.1 & 2.21
+      & 66.4 & 2.26 & 67.7 & 2.31 \\
+    T-P501
+      & 85.8 & 2.74 & 87.1 & 2.72
+      & 97.1 & 2.91 & 90.4 & 2.50
+      & 92.1 & 2.26 & 91.2 & 2.32 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

@@ -1,0 +1,6 @@
+model,dataset,auroc,n_id,n_ood
+nisqa,nisqa_val_sim,0.44786549909255896,11020,2500
+nisqa,nisqa_val_live,0.8137681488203268,11020,200
+nisqa,nisqa_test_for,0.6255013611615245,11020,240
+nisqa,nisqa_test_livetalk,0.7953125977845922,11020,232
+nisqa,nisqa_test_p501,0.653421808832426,11020,240

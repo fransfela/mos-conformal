@@ -1,0 +1,24 @@
+\begin{table}[t]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{0.92}
+  \caption{NISQA Corpus subsets used in the study~\cite{Mittag2021nisqa}. V-SIM is deterministically divided into disjoint calibration and in-domain evaluation halves. $N$ is the number of clips with subjective MOS labels.}
+  \vspace{2pt}
+  \label{tab:datasets}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{@{}lllr@{}}
+    \toprule
+    Abbrev. & Subset & Role & $N$ \\
+    \midrule
+    T-SIM  & \texttt{TRAIN\_SIM}     & Feature reference & 10\,000 \\
+    T-LIV  & \texttt{TRAIN\_LIVE}    & Shifted evaluation & 1\,020 \\
+    V-SIM-Cal & \texttt{VAL\_SIM}    & Calibration & 1\,250 \\
+    V-SIM-ID  & \texttt{VAL\_SIM}    & ID evaluation & 1\,250 \\
+    V-LIV  & \texttt{VAL\_LIVE}      & Shifted evaluation & 200 \\
+    T-FOR  & \texttt{TEST\_FOR}      & Shifted evaluation & 240 \\
+    T-TLK  & \texttt{TEST\_LIVETALK} & Shifted evaluation & 232 \\
+    T-P501 & \texttt{TEST\_P501}     & Shifted evaluation & 240 \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table}

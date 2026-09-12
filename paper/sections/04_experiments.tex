@@ -1,0 +1,55 @@
+% 04_experiments.tex
+
+\section{Experiments}
+\label{sec:experiments}
+
+\vspace{-.2cm}
+\subsection{Setup}
+\label{ssec:setup}
+
+We use all seven subsets of the NISQA Corpus~\cite{Mittag2021nisqa}, summarized in Table~\ref{tab:datasets}. T-SIM fits the feature reference statistics and supplies the $k$-NN reference bank. A deterministic content-disjoint split assigns 1{,}250 V-SIM clips to conformal calibration and 1{,}250 to in-domain evaluation. T-LIV, V-LIV, T-FOR, T-TLK, and T-P501 are evaluated as metadata-defined shifts in recording condition, language, or channel. No label from a shifted subset is used for calibration.
+
+\input{tables/tab1_datasets}
+
+We evaluate DNSMOS P.835~\cite{Reddy2022dnsmos} using its overall-quality output, NISQA v2~\cite{Mittag2021nisqa}, and UTMOS~\cite{Saeki2022utmos}. All outputs are represented on the 1--5 MOS scale. DNSMOS predictions include the non-personalized P.835 polynomial mapping.\footnote{The stored clip-level correction approximates segment-wise mapping for multi-segment clips, with mean absolute discrepancy 0.0038 MOS in a stratified verification sample.} UTMOS scores come from a torchaudio reimplementation of the released checkpoint rather than the pinned fairseq scorer, and we have not verified numerical equivalence between the two.
+
+For point predictions, we report SRCC and RMSE. Domain detection compares each shifted subset with held-out V-SIM using AUROC and FPR at 95\% TPR. V-SIM has no domain-detection bar because it defines the in-domain negative class. Error detection is a separate within-domain task. In each evaluation subset, positives are the highest absolute-error quartile and the score direction is fixed in advance so that larger distance predicts larger error. Figure~\ref{fig:error-auroc} reports group-bootstrap 95\% confidence intervals from 2{,}000 resamples. Interval comparisons independently resample calibration and evaluation groups, then refit quantiles, bin boundaries, and bin-specific radii in every bootstrap replicate.
+
+\vspace{-.2cm}
+\subsection{Point Prediction}
+\label{ssec:point-results}
+
+Table~\ref{tab:pcc-srcc} shows that a metadata-defined shift does not imply uniform degradation. NISQA was trained on partitions of this corpus, so its numbers are an in-sample reference rather than a generalization test comparable to DNSMOS and UTMOS. UTMOS has the highest SRCC on every subset but reaches RMSE 1.022 on T-TLK. DNSMOS attains nearly the same V-LIV RMSE as NISQA, yet has substantially higher error on T-FOR and T-P501. Rank correlation and scale error therefore provide different views of transfer. Averaging the three point estimates raises SRCC over every single model on both corpora. On URGENT2025, the ensemble mean reaches SRCC 0.674 versus at most 0.597 for any single model.
+
+\input{tables/tab2_pcc_srcc}
+
+\vspace{-.2cm}
+\subsection{Domain Detection Versus Error Detection}
+\label{ssec:detection-results}
+
+Table~\ref{tab:ood-score} evaluates domain discrimination. Averaged over 15 predictor--shift pairs, AUROC is 0.615 for Euclidean distance, 0.678 for Mahalanobis distance, and 0.690 for nearest-neighbour distance. Nearest-neighbour distance attains the highest per-predictor AUROC in all three columns, though the margin over Mahalanobis is small for NISQA and negligible for UTMOS, while Mahalanobis obtains the lowest mean FPR@95. Neither score dominates on both metrics, so we treat Mahalanobis and nearest-neighbour distance as comparable alternatives for domain detection.
+
+\input{tables/tab3_ood_score}
+
+\input{tables/tab4_coverage}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{figures/auroc_bar.pdf}
+  \vspace{-.8cm}
+  \caption{Within-domain detection of the highest absolute-error quartile using Mahalanobis distance. Color and hatch encode the predictor. Points show AUROC estimates and error bars show group-bootstrap 95\% confidence intervals from 2{,}000 resamples. V-SIM is included because this is error detection rather than domain discrimination. %The dotted line denotes chance performance.
+  }
+  \label{fig:error-auroc}
+\end{figure}
+
+Figure~\ref{fig:error-auroc} shows that domain discrimination and error detection are not interchangeable. Across the 18 predictor--subset pairs, mean error-detection AUROC is 0.478 for Mahalanobis distance. The corresponding means are 0.433 for Euclidean distance, 0.499 for nearest-neighbour distance, and 0.421 for prediction extremity $|\qhat-3|$. On T-LIV, Mahalanobis AUROC is 0.549 for DNSMOS, 0.540 for NISQA, and 0.463 for UTMOS. DNSMOS on T-FOR reaches only 0.360 with 95\% CI $[0.268,0.455]$, and NISQA on its own held-out V-SIM half reaches 0.385 with CI $[0.349,0.418]$, an equally sub-chance and even tighter interval on the model's in-sample data. Spearman correlation between $\dMx$ and $|\qhat-\qtrue|$ within each subset, a continuous rank-correlation check, agrees qualitatively with the AUROC-based conclusion: correlations are small and inconsistent in sign across predictors and subsets. A single higher-distance-means-higher-error rejection rule is therefore not transferable.
+
+Applying the NISQA-Corpus-fitted Mahalanobis, Euclidean, and nearest-neighbour references, without refitting, to 364 clips from the Interspeech 2025 URGENT Challenge~\cite{Sach2025} (six languages, 26 enhancement systems) gives domain-detection AUROC up to 0.911 against held-out V-SIM but error-detection AUROC of only 0.415 to 0.541. This dissociation is not specific to NISQA Corpus.
+
+\vspace{-.2cm}
+\subsection{Conformal Intervals}
+\label{ssec:interval-results}
+
+Table~\ref{tab:coverage} reports the fixed and five-bin Mahalanobis-adaptive intervals. Fixed coverage on held-out V-SIM is 90.2\%, 90.1\%, and 91.8\% for DNSMOS, NISQA, and UTMOS. This confirms the expected in-domain behavior of the disjoint calibration design. Fixed widths span 2.26 to 2.91 MOS, 56--73\% of the four-point (1--5) scale, so the coverage guarantee is bought with intervals that occupy most of the usable range. Coverage under shift ranges from 66.4\% to 100.0\%, which is consistent with the absence of an arbitrary-shift guarantee.
+
+Adaptation is predictor and domain dependent. For NISQA, coverage changes from 97.1\% to 90.4\% on T-P501 and from 93.5\% to 84.1\% on T-TLK. Both changes have bootstrap CIs that exclude zero. $k$-NN and Euclidean bins avoid this T-TLK undercoverage. The evidence does not support a better wrapper.

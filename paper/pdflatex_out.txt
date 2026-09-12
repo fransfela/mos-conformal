@@ -1,0 +1,140 @@
+﻿This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo))
+(spconf.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty)
+)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f)))
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty)))
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y)))
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.
+sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty)))
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty)))
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.st
+y
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pd
+ftex.def)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cf
+g))
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def) (main.aux)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg)) (main.out) (main.out)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg)
+(sections/abstract.tex) (sections/01_introduction.tex)
+(sections/02_related_work.tex) (sections/03_method.tex [1{C:/Users/rffela/AppDa
+ta/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/rffela/AppData/Local/Prog
+rams/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+
+pdfTeX warning: pdflatex.exe (file ./figures/fig1_pipeline.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+(C:\Users\rffela\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd))
+(sections/04_experiments.tex [2 <./figures/fig1_pipeline.pdf>]
+Underfull \hbox (badness 1681) in paragraph at lines 45--62
+\OT1/ptm/m/n/10 (+20) in-ter-val qual-ity we re-port em-pir-i-cal marginal cov-
+er-age
+(tables/tab2_pcc_srcc.tex)
+Underfull \vbox (badness 2426) has occurred while \output is active [3]
+(tables/tab3_coverage.tex) (tables/tab4_ood_score.tex))
+(sections/05_conclusion.tex [4 <./figures/mahal_vs_error.pdf> <./figures/auroc_
+bar.pdf>]) (main.bbl) [5] (main.aux) )
+(see the transcript file for additional information)<C:/Users/rffela/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rffela/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Use
+rs/rffela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmib10.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rffela/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rffela/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rffela/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rf
+fela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
+/Users/rffela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/courier/ucrr8a.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/urw/times/utmbi8a.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmr8a.pfb><C:/Users/rffela/AppData/Local/Programs/MiKTeX/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 1025495 bytes).
+Transcript written on main.log.
+pdflatex : pdflatex: major issue: So far, you have not checked for MiKTeX 
+updates.
+At line:1 char:198
++ ... ct -First 5 ; pdflatex -interaction=nonstopmode main.tex 2>&1 | Out-F ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (pdflatex: major...MiKTeX updates. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

@@ -1,0 +1,35 @@
+﻿﻿% tables/tab3_ood_score.tex -- Table 3: OOD score comparison (L2 vs Mahalanobis vs KNN)
+% PAPER: Table 3 (ablation)
+% AUROC and FPR@95TPR averaged over 5 predeclared shifted subsets:
+%   TRAIN_LIVE, VAL_LIVE, TEST_FOR, TEST_LIVETALK, TEST_P501
+% ID evaluation set is the held-out VAL_SIM subset (never used to fit reference
+% statistics), correcting a self-neighbor leakage issue in k-NN scoring where
+% the reference bank previously overlapped the ID evaluation pool.
+% Data: eval_auroc_20260814_170658.csv, knn_k_sensitivity_20260814_170806.csv,
+%       pca_mahalanobis_ablation_20260814_170828.csv
+\begin{table}[t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{3.5pt}
+  \renewcommand{\arraystretch}{0.92}
+  \caption{Domain detection averaged across five shifted subsets against held-out V-SIM. Higher AUROC and lower FPR@95 are better. \best{Bold} and \second{underlined} entries are best and second best in each column according to unrounded values. $^\dagger$Entries that round to the same displayed value are ranked by an unrounded difference below 0.001.}
+  \vspace{2pt}
+  \label{tab:ood-score}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{@{}lccccc@{}}
+    \toprule
+    & \multicolumn{4}{c}{AUROC $\uparrow$} &
+      FPR@95 $\downarrow$ \\
+    \cmidrule(lr){2-5}
+    OOD score & DNS & NIQ & UTM & Avg. & Avg. \\
+    \midrule
+    L2 Euclidean
+      & 0.585 & 0.693 & \second{0.569}$^\dagger$ & 0.615 & 0.854 \\
+    Mahalanobis
+      & \second{0.668} & \second{0.803} & 0.561 & \second{0.678} & \best{0.732} \\
+    $k$-NN ($k=1$)
+      & \best{0.697} & \best{0.805} & \best{0.569}$^\dagger$ & \best{0.690} & \second{0.763} \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table}

@@ -1,0 +1,86 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data (audio files, large datasets)
+data/NISQA_Corpus/NISQA_TRAIN_SIM/
+data/NISQA_Corpus/NISQA_TRAIN_LIVE/
+data/NISQA_Corpus/NISQA_VAL_SIM/
+data/NISQA_Corpus/NISQA_VAL_LIVE/
+data/NISQA_Corpus/NISQA_TEST_FOR/
+data/NISQA_Corpus/NISQA_TEST_LIVETALK/
+data/NISQA_Corpus/NISQA_TEST_P501/
+data/*.wav
+data/*.flac
+data/*.mp3
+
+# Model weights (large binary files)
+models/DNSMOS/*.onnx
+models/NISQA/**/*.pt
+models/NISQA/**/*.ckpt
+models/UTMOS/**/*.pt
+models/UTMOS/**/*.ckpt
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Results (large NPZ feature/Mahal files)
+results/features/
+results/mahal/
+results/conformal/
+
+# Results CSVs and JSONs are kept (small, useful for reproducibility)
+
+# VS Code / OS
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Not part of this repo
+PreviousPublications/
+ICASSP2026_Paper_Templates/
+ICASSP2027_Paper_Templates/
+references/
+research_ideas_table.jsx
+BlockDiagram.pptx
+bootstrap_log.txt
+paper/.miktex-local/
+paper/build_preview/
+paper/figures/*.png
+paper/figures/*.pptx
+paper/main_v1.pdf
+paper/pdflatex_check.txt
+data/URGENT2024_MOS/
+data/URGENT2025_SQA_pilot/
+data/URGENT2025_SQA_scaled/
+data/blind_test.noisy/
+data/nonblind_test.clean/
+data/NISQA_Corpus.zip
+models/NISQA/
+models/UTMOS/
+models/DNSMOS/
+copilot-instructions.md
+
+# Internal working process docs, not for public release
+PAPER_STATUS.md
+DECISIONS.md
+PAPER_IDENTITY_FREEZE.md
+WRITING_STYLE.md
+skills-lock.json
+.agents/
+

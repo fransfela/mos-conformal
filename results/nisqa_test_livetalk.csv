@@ -1,0 +1,233 @@
+filepath,condition,mos,dataset,split
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c01_f1.wav,Anchor: FB clean,4.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c01_f2.wav,Anchor: FB clean,4.41666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c01_m1.wav,Anchor: FB clean,4.54166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c01_m2.wav,Anchor: FB clean,4.66666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c02_f3.wav,Anchor: FB P50MNRU 25dB,1.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c02_f4.wav,Anchor: FB P50MNRU 25dB,2.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c02_m3.wav,Anchor: FB P50MNRU 25dB,2.2916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c02_m4.wav,Anchor: FB P50MNRU 25dB,1.8333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c03_f1.wav,Anchor: FB Noise 12dB,1.33333333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c03_f2.wav,Anchor: FB Noise 12dB,1.5833333333333302,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c03_m1.wav,Anchor: FB Noise 12dB,1.5,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c03_m2.wav,Anchor: FB Noise 12dB,1.5416666666666698,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c04_f3.wav,Anchor: FB Level -20dB,4.16666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c04_f4.wav,Anchor: FB Level -20dB,4.54166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c04_m3.wav,Anchor: FB Level -20dB,3.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c04_m4.wav,Anchor: FB Level -20dB,4.16666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c05_f1.wav,Anchor: FB BP 500-2500Hz,1.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c05_f2.wav,Anchor: FB BP 500-2500Hz,2.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c05_m1.wav,Anchor: FB BP 500-2500Hz,1.9166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c05_m2.wav,Anchor: FB BP 500-2500Hz,1.9166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c06_f3.wav,Anchor: FB BP 100-5000Hz + Level -10dB,3.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c06_f4.wav,Anchor: FB BP 100-5000Hz + Level -10dB,3.875,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c06_m3.wav,Anchor: FB BP 100-5000Hz + Level -10dB,4.0,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c06_m4.wav,Anchor: FB BP 100-5000Hz + Level -10dB,3.7083333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c07_f1.wav,Anchor: FB Time Clipping 2%,3.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c07_f2.wav,Anchor: FB Time Clipping 2%,3.4583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c07_m1.wav,Anchor: FB Time Clipping 2%,3.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c07_m2.wav,Anchor: FB Time Clipping 2%,3.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c08_f3.wav,Anchor: FB Time Clipping 20%,1.20833333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c08_f4.wav,Anchor: FB Time Clipping 20%,1.7083333333333302,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c08_m3.wav,Anchor: FB Time Clipping 20%,1.08333333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c08_m4.wav,Anchor: FB Time Clipping 20%,1.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c09_f1.wav,Mobile phone,4.16666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c09_f3.wav,Mobile phone,3.0833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c09_m2.wav,Mobile phone,3.5416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c09_m4.wav,Mobile phone,3.4166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c10_f2.wav,Skype / speaking loudly,4.20833333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c10_f4.wav,Skype / speaking loudly,3.9583333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c10_m1.wav,Skype / speaking loudly,4.04166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c10_m3.wav,Skype / speaking loudly,4.20833333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c11_f2.wav,Skype / speaking quietly,3.9583333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c11_f4.wav,Skype / speaking quietly,4.04166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c11_m1.wav,Skype / speaking quietly,3.5833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c11_m3.wav,Skype / speaking quietly,3.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c12_f2.wav,Skype / talker distant from microphone,3.7083333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c12_f4.wav,Skype / talker distant from microphone,3.8333333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c12_m1.wav,Skype / talker distant from microphone,4.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c12_m3.wav,Skype / talker distant from microphone,3.9166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c13_f2.wav,Skype / talker distant from microphone / speaking loudly,3.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c13_f4.wav,Skype / talker distant from microphone / speaking loudly,4.0,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c13_m1.wav,Skype / talker distant from microphone / speaking loudly,3.7083333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c13_m3.wav,Skype / talker distant from microphone / speaking loudly,3.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c14_f2.wav,Skype / talker distant from microphone / speaking quietly,3.4583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c14_f4.wav,Skype / talker distant from microphone / speaking quietly,3.3333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c14_m1.wav,Skype / talker distant from microphone / speaking quietly,3.5,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c14_m3.wav,Skype / talker distant from microphone / speaking quietly,3.5416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c15_f2.wav,Skype / loudspeaker,2.7083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c15_f4.wav,Skype / loudspeaker,1.875,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c15_m1.wav,Skype / loudspeaker,3.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c15_m3.wav,Skype / loudspeaker,2.5,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c16_f2.wav,Skype / loudness variation,2.9166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c16_f4.wav,Skype / loudness variation,2.5,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c16_m2.wav,Skype / loudness variation,4.16666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c16_m4.wav,Skype / loudness variation,4.29166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c17_f1.wav,Facebook,4.08333333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c17_f3.wav,Facebook,4.54166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c17_m2.wav,Facebook,4.20833333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c17_m4.wav,Facebook,4.16666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c18_f2.wav,Skype,4.0,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c18_f4.wav,Skype,4.41666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c18_m2.wav,Skype,4.29166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c18_m4.wav,Skype,4.08333333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c19_f1.wav,Facebook / speaking loudly,4.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c19_f3.wav,Facebook / speaking loudly,4.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c19_m2.wav,Facebook / speaking loudly,4.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c19_m4.wav,Facebook / speaking loudly,3.9166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c20_f1.wav,Mobile phone / speaking loudly,3.7083333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c20_f3.wav,Mobile phone / speaking loudly,3.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c20_m2.wav,Mobile phone / speaking loudly,2.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c20_m4.wav,Mobile phone / speaking loudly,3.5416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c21_f1.wav,Mobile phone / speaking quietly,3.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c21_f3.wav,Mobile phone / speaking quietly,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c21_m2.wav,Mobile phone / speaking quietly,2.5833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c21_m4.wav,Mobile phone / speaking quietly,3.5416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c22_f1.wav,Mobile phone / loudspeaker,2.7916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c22_f3.wav,Mobile phone / loudspeaker,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c22_m2.wav,Mobile phone / loudspeaker,2.7916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c22_m4.wav,Mobile phone / loudspeaker,3.8333333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c23_f1.wav,Fixed line / speaking quietly,2.2916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c23_f3.wav,Fixed line / speaking quietly,2.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c23_m2.wav,Fixed line / speaking quietly,2.1666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c23_m4.wav,Fixed line / speaking quietly,2.2083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c24_f1.wav,Facebook / loudspeaker,2.4166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c24_f3.wav,Facebook / loudspeaker,4.29166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c24_m2.wav,Facebook / loudspeaker,3.0833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c24_m4.wav,Facebook / loudspeaker,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c25_f1.wav,Inside building (bad reception) / mobile phone,2.4166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c25_f4.wav,Inside building (bad reception) / mobile phone,2.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c25_m2.wav,Inside building (bad reception) / mobile phone,2.3333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c25_m4.wav,Inside building (bad reception) / mobile phone,1.0,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c26_f1.wav,Inside building (bad reception) / mobile phone / speaking loudly,1.9166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c26_f4.wav,Inside building (bad reception) / mobile phone / speaking loudly,2.7083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c26_m2.wav,Inside building (bad reception) / mobile phone / speaking loudly,1.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c26_m4.wav,Inside building (bad reception) / mobile phone / speaking loudly,1.20833333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c27_f1.wav,Inside building (bad reception) / Mobile phone / loudspeaker,2.4166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c27_f4.wav,Inside building (bad reception) / Mobile phone / loudspeaker,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c27_m2.wav,Inside building (bad reception) / Mobile phone / loudspeaker,2.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c27_m4.wav,Inside building (bad reception) / Mobile phone / loudspeaker,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c28_f1.wav,Inside building (bad reception) / Skype /,1.0,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c28_f4.wav,Inside building (bad reception) / Skype /,1.5,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c28_m2.wav,Inside building (bad reception) / Skype /,3.9583333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c28_m4.wav,Inside building (bad reception) / Skype /,3.7083333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c29_f1.wav,Inside building (bad reception) / Facebook / loudspeaker,2.25,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c29_f4.wav,Inside building (bad reception) / Facebook / loudspeaker,1.16666666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c29_m2.wav,Inside building (bad reception) / Facebook / loudspeaker,3.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c29_m4.wav,Inside building (bad reception) / Facebook / loudspeaker,3.5833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c30_f1.wav,Inside building (bad reception) / Skype / speaking quietly,2.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c30_f4.wav,Inside building (bad reception) / Skype / speaking quietly,1.5833333333333302,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c30_m2.wav,Inside building (bad reception) / Skype / speaking quietly,2.9583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c30_m4.wav,Inside building (bad reception) / Skype / speaking quietly,3.9583333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c31_f2.wav,Environmental noise (e.g. shopping center) / mobile phone ,2.4166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c31_f4.wav,Environmental noise (e.g. shopping center) / mobile phone ,3.8333333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c31_m1.wav,Environmental noise (e.g. shopping center) / mobile phone ,2.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c31_m3.wav,Environmental noise (e.g. shopping center) / mobile phone ,2.2083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c32_f2.wav,Environmental noise (e.g. shopping center) / mobile phone / speaking quietly,2.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c32_f4.wav,Environmental noise (e.g. shopping center) / mobile phone / speaking quietly,3.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c32_m1.wav,Environmental noise (e.g. shopping center) / mobile phone / speaking quietly,2.3333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c32_m3.wav,Environmental noise (e.g. shopping center) / mobile phone / speaking quietly,1.9583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c33_f2.wav,Environmental noise (e.g. shopping center) / mobile phone / talker distant from microphone,2.5416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c33_f4.wav,Environmental noise (e.g. shopping center) / mobile phone / talker distant from microphone,1.4166666666666698,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c33_m1.wav,Environmental noise (e.g. shopping center) / mobile phone / talker distant from microphone,2.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c33_m3.wav,Environmental noise (e.g. shopping center) / mobile phone / talker distant from microphone,1.4166666666666698,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c34_f2.wav,Environmental noise (e.g. shopping center) / Skype ,3.4583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c34_f4.wav,Environmental noise (e.g. shopping center) / Skype ,3.7916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c34_m1.wav,Environmental noise (e.g. shopping center) / Skype ,3.2916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c34_m3.wav,Environmental noise (e.g. shopping center) / Skype ,3.2083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c35_f1.wav,Subway station noise (bad reception) / Mobile phone,1.4166666666666698,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c35_f3.wav,Subway station noise (bad reception) / Mobile phone,2.8333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c35_m1.wav,Subway station noise (bad reception) / Mobile phone,1.5,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c35_m3.wav,Subway station noise (bad reception) / Mobile phone,2.7083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c36_f1.wav,Subway station noise (bad reception) / Mobile phone / speaking quietly,2.2083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c36_f3.wav,Subway station noise (bad reception) / Mobile phone / speaking quietly,2.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c36_m1.wav,Subway station noise (bad reception) / Mobile phone / speaking quietly,1.4166666666666698,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c36_m3.wav,Subway station noise (bad reception) / Mobile phone / speaking quietly,2.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c37_f1.wav,Subway station noise (bad reception) / Mobile phone / talker distant from microphone,1.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c37_f3.wav,Subway station noise (bad reception) / Mobile phone / talker distant from microphone,1.33333333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c37_m1.wav,Subway station noise (bad reception) / Mobile phone / talker distant from microphone,1.25,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c37_m3.wav,Subway station noise (bad reception) / Mobile phone / talker distant from microphone,1.33333333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c38_f1.wav,Subway station noise (bad reception) / Facebook,1.9583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c38_f3.wav,Subway station noise (bad reception) / Facebook,3.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c38_m1.wav,Subway station noise (bad reception) / Facebook,3.1666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c38_m3.wav,Subway station noise (bad reception) / Facebook,3.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c39_f1.wav,Subway station noise (bad reception) / Skype,2.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c39_f3.wav,Subway station noise (bad reception) / Skype,2.4166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c39_m1.wav,Subway station noise (bad reception) / Skype,2.4166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c39_m3.wav,Subway station noise (bad reception) / Skype,2.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c40_f1.wav,Subway station noise (bad reception) / Facebook / speaking loudly,2.4583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c40_f3.wav,Subway station noise (bad reception) / Facebook / speaking loudly,3.5,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c40_m1.wav,Subway station noise (bad reception) / Facebook / speaking loudly,3.2083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c40_m3.wav,Subway station noise (bad reception) / Facebook / speaking loudly,3.0833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c41_f1.wav,Subway station noise (bad reception) / Facebook / speaking quietly,2.7916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c41_f3.wav,Subway station noise (bad reception) / Facebook / speaking quietly,1.0,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c41_m1.wav,Subway station noise (bad reception) / Facebook / speaking quietly,2.1666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c41_m3.wav,Subway station noise (bad reception) / Facebook / speaking quietly,2.7916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c42_f2.wav,Café noise / mobile phone,2.3333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c42_f4.wav,Café noise / mobile phone,2.875,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c42_m1.wav,Café noise / mobile phone,1.33333333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c42_m3.wav,Café noise / mobile phone,1.7083333333333302,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c43_f2.wav,Café noise / mobile phone / speaking quietly,1.9583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c43_f4.wav,Café noise / mobile phone / speaking quietly,2.25,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c43_m1.wav,Café noise / mobile phone / speaking quietly,1.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c43_m3.wav,Café noise / mobile phone / speaking quietly,1.25,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c44_f2.wav,Café noise / mobile phone / talker distant from microphone,2.5,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c44_f4.wav,Café noise / mobile phone / talker distant from microphone,1.9166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c44_m1.wav,Café noise / mobile phone / talker distant from microphone,1.20833333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c44_m3.wav,Café noise / mobile phone / talker distant from microphone,1.7083333333333302,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c45_f2.wav,Car on highway noise (bad reception) / mobile phone,2.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c45_f3.wav,Car on highway noise (bad reception) / mobile phone,2.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c45_m1.wav,Car on highway noise (bad reception) / mobile phone,3.0833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c45_m3.wav,Car on highway noise (bad reception) / mobile phone,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c46_f2.wav,Car on highway noise (bad reception) / mobile phone / distant from microphone,1.6666666666666698,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c46_f3.wav,Car on highway noise (bad reception) / mobile phone / distant from microphone,2.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c46_m1.wav,Car on highway noise (bad reception) / mobile phone / distant from microphone,2.125,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c46_m3.wav,Car on highway noise (bad reception) / mobile phone / distant from microphone,1.25,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c47_f2.wav,Car on highway noise (bad reception) / Facebook,2.7083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c47_f3.wav,Car on highway noise (bad reception) / Facebook,3.5833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c47_m1.wav,Car on highway noise (bad reception) / Facebook,3.0833333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c47_m3.wav,Car on highway noise (bad reception) / Facebook,2.9583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c48_f2.wav,Car on highway noise (bad reception) / Facebook / speaking loudly / background music,1.33333333333333,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c48_f3.wav,Car on highway noise (bad reception) / Facebook / speaking loudly / background music,2.5416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c48_m1.wav,Car on highway noise (bad reception) / Facebook / speaking loudly / background music,2.1666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c48_m3.wav,Car on highway noise (bad reception) / Facebook / speaking loudly / background music,2.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c49_f2.wav,Car on highway noise (bad reception) / Skype / speaking quietly / background music,1.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c49_f3.wav,Car on highway noise (bad reception) / Skype / speaking quietly / background music,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c49_m1.wav,Car on highway noise (bad reception) / Skype / speaking quietly / background music,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c49_m3.wav,Car on highway noise (bad reception) / Skype / speaking quietly / background music,3.0416666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c50_f2.wav,Elevator (bad reception) / mobile phone,2.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c50_f3.wav,Elevator (bad reception) / mobile phone,2.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c50_m2.wav,Elevator (bad reception) / mobile phone,1.04166666666667,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c50_m4.wav,Elevator (bad reception) / mobile phone,2.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c51_f1.wav,Street noise / mobile phone,2.9166666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c51_f3.wav,Street noise / mobile phone,1.875,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c51_m2.wav,Street noise / mobile phone,2.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c51_m4.wav,Street noise / mobile phone,1.7083333333333302,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c52_f1.wav,Street noise / mobile phone / speaking loudly,2.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c52_f3.wav,Street noise / mobile phone / speaking loudly,2.2083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c52_m2.wav,Street noise / mobile phone / speaking loudly,2.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c52_m4.wav,Street noise / mobile phone / speaking loudly,1.4583333333333302,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c53_f1.wav,Street noise / mobile phone / talker distant from microphone,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c53_f3.wav,Street noise / mobile phone / talker distant from microphone,1.4583333333333302,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c53_m2.wav,Street noise / mobile phone / talker distant from microphone,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c53_m4.wav,Street noise / mobile phone / talker distant from microphone,2.2083333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c54_f1.wav,Street noise / Facebook,3.3333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c54_f3.wav,Street noise / Facebook,3.3333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c54_m2.wav,Street noise / Facebook,3.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c54_m4.wav,Street noise / Facebook,1.9583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c55_f2.wav,Metro station / mobile phone ,3.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c55_f4.wav,Metro station / mobile phone ,2.7916666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c55_m2.wav,Metro station / mobile phone ,2.6666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c55_m4.wav,Metro station / mobile phone ,2.4583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c56_f2.wav,Metro station / mobile phone / speaking quietly,2.3333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c56_f4.wav,Metro station / mobile phone / speaking quietly,2.1666666666666696,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c56_m2.wav,Metro station / mobile phone / speaking quietly,2.625,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c56_m4.wav,Metro station / mobile phone / speaking quietly,2.875,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c57_f2.wav,Metro station / Facebook,2.9583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c57_f4.wav,Metro station / Facebook,2.9583333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c57_m2.wav,Metro station / Facebook,2.8333333333333304,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c57_m4.wav,Metro station / Facebook,2.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c58_f2.wav,Metro station / Skype,3.375,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c58_f4.wav,Metro station / Skype,2.75,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c58_m2.wav,Metro station / Skype,3.7083333333333295,nisqa_test_livetalk,test
+..\..\data\NISQA_Corpus\NISQA_TEST_LIVETALK\deg\c58_m4.wav,Metro station / Skype,3.3333333333333304,nisqa_test_livetalk,test
