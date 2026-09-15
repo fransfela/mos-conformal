@@ -1,15 +1,15 @@
 % 03_method.tex
-
+\vspace{-.2cm}
 \section{Method}
 \label{sec:method}
 
-For a speech waveform $\mathbf{x}$, a frozen no-reference predictor $f$ returns the scalar MOS estimate $\qhat=f(\mathbf{x})$. We extract a fixed-dimensional representation $\zvec=\phi(\mathbf{x})\in\mathbb{R}^{d}$ from the predictor and mean-pool frame- or segment-level activations when required. Each predictor has its own feature space and therefore its own reference distribution.
+For a speech waveform $\mathbf{x}$, a frozen no-reference predictor $f$ returns the scalar MOS estimate $\qhat=f(\mathbf{x})$. We extract a fixed-dimensional representation $\zvec=\phi(\mathbf{x})\in\mathbb{R}^{d}$ from each predictor's penultimate layer, mean-pooling frame- or segment-level activations: the second dense layer before the final head for DNSMOS ($d=64$), the self-attention time-dependency module before the pooling heads for NISQA ($d=64$), and the BiLSTM output of the LDConditioner for UTMOS ($d=1024$). Each predictor has its own feature space and therefore its own reference distribution.
 
 \vspace{-.2cm}
 \subsection{Feature-Space Scores}
 \label{ssec:features}
 
-For each predictor, T-SIM supplies reference features $\{\zvec_i\}_{i=1}^{N}$, where $N=10{,}000$. The maximum-likelihood empirical mean and covariance used by the implementation are
+For each predictor, T-SIM supplies reference features $\{\zvec_i\}_{i=1}^{N}$, where $N=10{,}000$. The maximum-likelihood empirical mean and covariance are
 \begin{align}
     \hat{\muvec}
     &= \frac{1}{N}\sum_{i=1}^{N}\zvec_i,
@@ -19,7 +19,7 @@ For each predictor, T-SIM supplies reference features $\{\zvec_i\}_{i=1}^{N}$, w
     (\zvec_i-\hat{\muvec})(\zvec_i-\hat{\muvec})^\top.
     \label{eq:cov}
 \end{align}
-Here $N>d$ for all predictors, with $d=64$ for DNSMOS and NISQA ($N/d=156$) and $d=1024$ for UTMOS ($N/d=9.8$). We use the empirical covariance throughout and do not apply Ledoit-Wolf shrinkage~\cite{LedoitWolf2004}.\footnote{For UTMOS, $N/d=9.8$ is a ratio for inverting a $1024\times1024$ covariance matrix. Refitting this reference with Ledoit-Wolf shrinkage changes domain-detection AUROC by at most 0.09 and error-detection AUROC by at most 0.12, without changing which model has the weakest Mahalanobis domain signal or the near-chance error-detection conclusion of Section~\ref{ssec:detection-results}.} The Mahalanobis score is
+Here $N>d$ for all predictors, with $d=64$ for DNSMOS and NISQA ($N/d=156$) and $d=1024$ for UTMOS ($N/d=9.8$). We use the empirical covariance throughout and do not apply Ledoit-Wolf shrinkage~\cite{LedoitWolf2004}. At UTMOS's sample size, shrinkage changes AUROC by at most 0.09 (domain) and 0.12 (error), both above the 0.075 spread across scores in Table~\ref{tab:ood-score}, so per-predictor rankings are not resolvable here. The near-chance conclusion of Section~\ref{ssec:detection-results} is unchanged under either estimator. The Mahalanobis score is
 \begin{align}
     d_M(\mathbf{x})
     =
@@ -30,7 +30,7 @@ Here $N>d$ for all predictors, with $d=64$ for DNSMOS and NISQA ($N/d=156$) and 
     \right]^{1/2}.
     \label{eq:mahal}
 \end{align}
-We also evaluate Euclidean distance $\lVert\zvec-\hat{\muvec}\rVert_2$ and the distance to the nearest T-SIM representation~\cite{Sun2022}. A larger score is prespecified to mean farther from the reference distribution. These scores quantify representation shift. They are not assumed to estimate MOS error.
+We also evaluate Euclidean distance $\lVert\zvec-\hat{\muvec}\rVert_2$ and the distance to the nearest T-SIM representation~\cite{Sun2022}, fixing $k=1$. A repo-only sweep over $k\in\{1,\ldots,50\}$ changes mean AUROC by at most 0.004. A larger score is prespecified to mean farther from the reference distribution. These scores quantify representation shift rather than estimate MOS error.
 
 \vspace{-.2cm}
 \subsection{Split Conformal Interval}
@@ -43,7 +43,7 @@ $\mathcal{D}_{\mathrm{cal}}=\{(\mathbf{x}_j,q_j^*)\}_{j=1}^{m}$ denote the calib
     \qquad \hat{q}_j=f(\mathbf{x}_j).
     \label{eq:nonconf}
 \end{align}
-Let $s_{(1)}\leq\cdots\leq s_{(m)}$ be the ordered calibration scores and let $\alpha\in(0,1)$ denote the target miscoverage rate, so nominal coverage is $1-\alpha$ (we use $\alpha=0.10$). For $\alpha\geq 1/(m+1)$, define
+Let $s_{(1)}\leq\cdots\leq s_{(m)}$ be the ordered calibration scores and let $\alpha\in(0,1)$ denote the miscoverage rate, so nominal coverage is $1-\alpha$ (we use $\alpha=0.10$). For $\alpha\geq 1/(m+1)$, define
 \begin{align}
     k_\alpha
     &= \left\lceil(m+1)(1-\alpha)\right\rceil,% \\
@@ -64,13 +64,13 @@ We do not clip the endpoints to $[1,5]$, since clipping can alter coverage at th
     \geq 1-\alpha.
     \label{eq:coverage-guarantee}
 \end{align}
-The content-disjoint split prevents direct content leakage but does not itself prove exchangeability, which can in principle be tested online~\cite{Vovk2003mondrian}. We do not conduct that test here. The NISQA model was developed using NISQA Corpus partitions~\cite{Mittag2021nisqa}, so its intervals are treated as empirical rather than as a fresh-data guarantee.
+The content-disjoint split prevents direct content leakage but does not itself prove exchangeability, which can in principle be tested online~\cite{Vovk2003mondrian}, though we do not conduct that test here. The NISQA model was developed using NISQA Corpus partitions~\cite{Mittag2021nisqa}, so its intervals are treated as empirical rather than as a fresh-data guarantee.
 
 \vspace{-.2cm}
 \subsection{Distance-Stratified Interval}
 \label{ssec:adaptive}
 
-Following Mondrian conformal regression with binned difficulty estimates~\cite{Bostrom2020Mondrian}, we test whether Mahalanobis distance supports instance-dependent widths. We select Mahalanobis distance for this test because Section~\ref{ssec:detection-results} shows it is comparable to nearest-neighbour distance on domain-detection AUROC while requiring only a fixed $(d,d)$ covariance matrix rather than a reference bank that grows with the calibration set. The calibration examples are divided into $K$ empirical quantile bins of $d_M(\mathbf{x})$. Let $I_k$ be the calibration indices assigned to bin $k$, let $m_k=|I_k|$, and let $s_{(r)}^{(k)}$ be the $r$th ordered residual within that bin. For $\alpha\geq1/(m_k+1)$,
+Following Mondrian conformal regression with binned difficulty estimates~\cite{Bostrom2020Mondrian}, we test whether Mahalanobis distance supports instance-dependent widths. We select Mahalanobis distance because Section~\ref{ssec:detection-results} shows it is comparable to nearest-neighbor distance on domain-detection AUROC while needing only a fixed $(d,d)$ covariance matrix rather than a reference bank that grows with the calibration set. The calibration examples are divided into $K$ empirical quantile bins of $d_M(\mathbf{x})$. Let $I_k$ be the calibration indices assigned to bin $k$, let $m_k=|I_k|$, and let $s_{(r)}^{(k)}$ be the $r$th ordered residual within that bin. For $\alpha\geq1/(m_k+1)$,
 \begin{align}
     \ell_{\alpha,k}
     &= \left\lceil(m_k+1)(1-\alpha)\right\rceil, %\\

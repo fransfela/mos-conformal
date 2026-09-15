@@ -12,7 +12,7 @@
   \small
   \setlength{\tabcolsep}{3.5pt}
   \renewcommand{\arraystretch}{0.92}
-  \caption{Domain detection averaged across five shifted subsets against held-out V-SIM. Higher AUROC and lower FPR@95 are better. \best{Bold} and \second{underlined} entries are best and second best in each column according to unrounded values. $^\dagger$Entries that round to the same displayed value are ranked by an unrounded difference below 0.001.}
+  \caption{Domain detection averaged over five shifted subsets vs. held-out V-SIM (higher AUROC, lower FPR@95 better). \best{Bold}: best per column.}
   \vspace{2pt}
   \label{tab:ood-score}
   \resizebox{\columnwidth}{!}{%
@@ -24,11 +24,11 @@
     OOD score & DNS & NIQ & UTM & Avg. & Avg. \\
     \midrule
     L2 Euclidean
-      & 0.585 & 0.693 & \second{0.569}$^\dagger$ & 0.615 & 0.854 \\
+      & 0.585 & 0.693 & 0.569 & 0.615 & 0.854 \\
     Mahalanobis
-      & \second{0.668} & \second{0.803} & 0.561 & \second{0.678} & \best{0.732} \\
+      & 0.668 & 0.803 & 0.561 & 0.678 & \best{0.732} \\
     $k$-NN ($k=1$)
-      & \best{0.697} & \best{0.805} & \best{0.569}$^\dagger$ & \best{0.690} & \second{0.763} \\
+      & \best{0.697} & \best{0.805} & \best{0.569} & \best{0.690} & 0.763 \\
     \bottomrule
   \end{tabular}%
   }

@@ -1,10 +1,6 @@
 % 05_conclusion.tex
-
+\vspace{-.2cm}
 \section{Conclusion}
 \label{sec:conclusion}
 
-Feature-space distance separates some corpus shifts, but its association with prediction error is weak and can reverse direction. Mahalanobis-stratified intervals therefore improve some predictor--domain pairs and harm others. This dissociation also appears on an independent corpus.
-
-Feature-distance alarms indicate corpus mismatch, not unreliable predictions without predictor- and domain-specific validation. Fixed split conformal intervals provide matched-domain marginal coverage under exchangeability and independent calibration. Arbitrary shift has no coverage guarantee.
-
-Scorer fidelity is a limitation: our UTMOS reimplementation and DNSMOS segment-length approximation have unverified equivalence to their reference implementations, and results may differ for other predictors, distances, or domains. Future work should test learned, error-supervised difficulty scores and calibration conditioned on validated domain labels, rather than unsupervised feature distance alone.
+Feature-space distance separates some corpus shifts, but its link to prediction error is weak and can reverse, so Mahalanobis-stratified intervals help some predictor--domain pairs and harm others. This dissociation also holds on an independent corpus. Fixed split conformal intervals give matched-domain coverage under exchangeability, but arbitrary shift has no coverage guarantee. Beyond the UTMOS scorer-fidelity gap noted in Section~\ref{ssec:setup}, the wrapper assumes calibration-test exchangeability that we do not test here and bins on a fixed Gaussian distance rather than a learned difficulty score. Testing exchangeability online and replacing Mahalanobis distance with a learned, calibrated difficulty estimator are natural next steps.
